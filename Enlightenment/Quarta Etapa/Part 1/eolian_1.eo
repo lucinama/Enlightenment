@@ -1,0 +1,30 @@
+class Simple (Eo_Base)
+{
+	/*@ Simple Class */
+	legacy_prefix: legacy;
+	constructors {}
+	properties {
+		xy {
+		   set {
+		       /*@ Sets properties X and Y*/
+		   };
+		   get {
+		       /*@ Gets properties X and Y */
+		   };
+		   values {
+		   	  int x; /*@ X value */
+			  int y; /*@ Y value */
+		   };
+		};
+		mxy {
+		    get {
+		    	/*@ Gets property MXY = X*Y */
+		    };
+		    values {
+		    	   int mxy; /*@ MXY value */
+		    };
+		};
+	};
+	events {}
+};
+	

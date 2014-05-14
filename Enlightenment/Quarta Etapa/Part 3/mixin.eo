@@ -1,0 +1,18 @@
+mixin Mixin ()
+{
+	/*@ Mixin Class */
+	legacy_prefix: legacy;
+	data: null;
+	constructors {}
+	properties {
+		   dxy {
+			get {
+		       	   /*@ Gets property DXY = X/Y */
+			};
+			values {
+			       int dxy; /*@ DXY value */
+			};
+		};
+	};
+	events {}
+};

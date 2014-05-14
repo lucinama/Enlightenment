@@ -1,0 +1,26 @@
+class Simple (Eo_Base, Interface, Mixin)
+{
+	/*@ Simple Class */
+	legacy_prefix: legacy;
+	data: Simple_Data;
+	constructors {}
+	properties {
+		   xy {
+			set {
+		      	     /*@ Sets properties X and Y */
+			};
+			get {
+			    /*@ Gets properties X and Y */
+			};
+			values {
+			       int x;	/*@ X value */
+			       int y; 	/*@ Y value */
+			};
+		};
+	};
+	events {}
+	implements {
+		   Interface::mxy::get;
+		   Eo_Base::constructor;
+	};
+};

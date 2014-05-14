@@ -1,1 +1,0 @@
-luciana@luciana-desktop.2203:1400083637

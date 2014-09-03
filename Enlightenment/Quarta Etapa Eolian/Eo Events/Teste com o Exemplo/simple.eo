@@ -1,0 +1,24 @@
+class Simple (Eo_Base)
+{
+	/*@ Simple Class */
+	legacy_prefix: legacy;
+	data: Private_Data;
+	constructor {}
+	properties {
+		   protected a {
+		 	       set {
+		     	   	   /*@ Sets property A */
+		    	       }
+			       get {
+			       	   /*@ Get property A */
+			       }
+		     	       values {
+			              int a; /*@ X value */
+		       	       }    
+		   }	
+	}
+	events {
+	       a,changed; /*@ Called when a has been changed. */
+	}
+	implements {}
+}

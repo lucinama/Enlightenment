@@ -1,0 +1,20 @@
+interface Interface ()
+{
+	/*@ Interface Class */
+	legacy_prefix: legacy;
+	data: null;
+	properties {
+		   mxy {
+		       get {
+		       	   /*@ Gets property MXY = X*Y */
+			};
+			values {
+			       int mxy; /*@ MXY value */
+			};
+		   };	
+	};
+	events {}
+	implements {
+		   virtual::mxy::get;
+	};
+};

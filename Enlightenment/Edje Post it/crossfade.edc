@@ -1,0 +1,181 @@
+/************************************************************/
+/*  CUDDLETECH - EDJE EXAMPLE                               */
+/*  This EDC demonastrates some kool FX that can be done    */
+/********************************** benr@cuddletech.com *****/
+
+/* Compile like this: edje_cc -v crossfade.edc crossfade.eet */
+/* View like this: edje crossfade.eet test                   */
+
+
+images {
+	// NONE
+}
+
+collections {
+	group {
+	 name, "test";
+	 min, 32 32;
+	 max, 1024 768;
+
+	 parts {
+		part {
+			name, "pull_out_background";
+			type, RECT;
+			mouse_events, 1;	
+			
+			description {
+				state, "default" 0.0;
+				visible, 1;
+				color, 255 255 255 255;
+				
+				rel1 {
+					relative, 0.0 0.0;
+					offset, 0 0;	
+				}
+				rel2 {
+					relative, 1.0 1.0;
+					offset, 0 0;
+				}
+
+			}
+		}
+		
+		part {
+			name, "pull_out";
+			type, RECT;
+			mouse_events, 1;
+			repeat_events, 0;
+		
+			description {
+				state, "default" 0.0;
+				visible, 1;
+				color, 0 255 0 0;
+	
+                                rel1 {
+                                        relative, 0.0 0.9;
+                                        offset, 0 0;
+                                }
+                                rel2 {
+                                        relative, 1.0 1.0;
+                                        offset, 0 0;
+                                }
+			}
+	
+                        description {
+                                state, "default" 1.0;
+                                visible, 1;
+                                color, 255 0 0 255;
+        
+                                rel1 {
+                                        relative, 0.0 0.6;
+                                        offset, 0 0;
+                                }
+                                rel2 {
+                                        relative, 1.0 1.0;
+                                        offset, 0 0;
+                                }
+                        }
+
+		}
+
+                part {
+                        name, "pull_back";
+                        type, RECT;
+                        mouse_events, 1;
+			repeat_events, 0;
+
+                        description {
+                                state, "default" 0.0;
+                                visible, 1;
+                                color, 255 0  0 0;
+       
+                                rel1 {
+                                        relative, 0.0 0.0;
+                                        offset, 0 0;
+                                }
+                                rel2 {
+                                        relative, 1.0 0.1;
+                                        offset, 0 0;
+                                }
+                        }
+
+                        description {
+                                state, "default" 1.0;
+                                visible, 1;
+                                color, 0 255  0 255;
+
+                                rel1 {
+                                        relative, 0.0 0.0;
+                                        offset, 0 0;
+                                }
+                                rel2 {
+                                        relative, 1.0 0.4;
+                                        offset, 0 0;
+                                }
+                        }
+
+                }
+
+                part {
+                        name, "text";
+                        type, TEXT;
+                        mouse_events, 0;
+                        repeat_events, 0;
+
+                        description {
+                                state, "default" 0.0;
+                                visible, 1;
+                                color, 0 0 0 255;
+				color2, 0 0 255 128;
+
+                                rel1 {
+                                        relative, 0.0 0.0;
+                                        offset, 0 0;
+                                }
+                                rel2 {
+                                        relative, 1.0 1.0;
+                                        offset, 0 0;
+                                }
+				text {
+					text, "cuddletech"; 
+					font, "Vera";
+					size, 12;
+					fit, 1 0;
+					align, 0.5 0.5;
+				}
+                        }
+		}
+
+
+
+	
+	} // Close Parts
+	
+	programs {
+		
+		program {
+			name, 	"animate";
+			signal, "mouse,clicked,1";
+			//signal, "mouse,wheel,0,-1";
+			source, "pull_*";
+			action, STATE_SET "default" 1.0;
+			transition, ACCELERATE 1.0;
+			target, "pull_out";	
+			target, "pull_back";
+		}
+
+                program {
+                        name,   "deanimate";
+			signal, "mouse,clicked,2";
+                        //signal, "mouse,wheel,0,1";
+                        source, "pull_back";
+                        action, STATE_SET "default" 0.0;
+                        transition, DECELERATE 1.0;
+                        target, "pull_out";
+                        target, "pull_back";
+                }
+
+
+
+
+}

@@ -1,0 +1,145 @@
+images {}
+
+collections {
+
+	    group {
+	      name, "teste";
+	      min, 50 50;
+	      max, 300 300;
+	      parts {
+	      	    part {
+		    	 name, "background";
+			 type, RECT;
+			 mouse_events, 1;
+			 
+			 description {
+			 	     state, "default" 0.0;
+				     color, 255 215 0 255;
+				     
+				     rel1 {
+				     	  relative, 0.0 0.0;
+					  offset, 0 0;
+				     }
+				     rel2 {
+				     	  relative, 1.0 1.0;
+					  offset, 0 0;
+		     			}
+				  }
+				 
+			 description {
+			 	     state, "azul" 0.0;
+				     inherit, "default" 0.0;
+				     color, 30 144 255 255;
+			}
+
+			 description {
+			 	     state, "pink" 0.0;
+				     inherit, "default" 0.0;
+				     color, 255 20 147 255;
+				     }	
+		    	}
+			part {
+			     name, "texto_amarelo";
+			     type, TEXT;
+			     mouse_events, 0;
+			     
+			     description {
+			     		 state, "default" 0.0;
+					 color, 255 215 0 255;
+					 
+					 rel1 {
+					      relative, 0.0 0.0;
+					      offset, 0 0;
+					      }
+					 rel2 {
+					      relative, 1.0 1.0;
+					      offset, 0 0;
+					      }
+					 text {
+					      text, "Clique o botão da direita para amarelo.";
+					      font, "Vera";
+					      size, 40;
+					      align, 0.5 0.1;
+					      }
+		 			 }
+			}					 
+			part {
+			     name, "texto_azul";
+			     type, TEXT;
+			     mouse_events, 0;
+			     description {
+			     		 state, "default" 0.0;
+					 color, 30 144 255 255;
+					 
+					 rel1 {
+					      relative, 0.0 0.0;
+					      offset, 0 0;
+					      }
+					 rel2 {
+					      relative, 1.0 1.0;
+					      offset, 0 0;
+					      }
+					 text {
+					      text, "Clique o botão da esquerda para azul.";
+					      font, "Vera";
+					      size, 40;
+					      align, 0.5 0.5;
+					      }
+		 			 }
+			}
+			part {
+			     name, "texto_pink";
+			     type, TEXT;
+			     mouse_events, 0;
+
+			     description {
+			     		 state, "default" 0.0;
+					 color, 255 20 147 255;
+					 
+					 rel1 {
+					      relative, 0.0 0.0;
+					      offset, 0 0;
+					      }
+					 rel2 {
+					      relative, 1.0 1.0;
+					      offset, 0 0;
+					      }
+					 text {
+					      text, "Clique o botão do meio para piscar pink e amarelo.";
+					      font, "Vera";
+					      size, 40;
+					      align, 0.5 0.9;
+					      }
+		 			 }
+			programs {
+	     	      		program {
+		      	      	 	name,		"muda_cor_1";
+					signal, 	"mouse,clicked,1";
+			      	 	source,		"background";
+			      	 	action,		STATE_SET "azul" 0.0;
+			      	 	transition, 	SINUSOIDAL 1.0;
+			      	 	target,     	"background";
+					}
+				program {
+					name,		"retorna_default";
+					signal,		"mouse,clicked,3";
+					source, 	"background";
+					action, 	STATE_SET "default" 0.0;
+			      	 	transition, 	SINUSOIDAL 1.0;
+					target, 	"background";
+					}
+				program {
+					name,		"pink-amarelo";
+					signal,		"mouse,clicked,2";
+					source,		"background";
+					action,		STATE_SET "pink" 0.0;
+					target,		"background";
+			      	 	transition, 	SINUSOIDAL 1.0;
+					after,		"retorna_default";
+					}
+
+			}
+ 
+		}					  
+	}
+}

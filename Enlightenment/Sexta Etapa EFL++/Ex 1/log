@@ -1,0 +1,739 @@
+DBG<24855>:eina_module lib/eina/eina_module.c:557 eina_module_list_load() array 0x16aa710, count 0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:147 eina_mempool_register() be=0x7f3274818bc0, name=0x7f32745ff6b1
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:147 eina_mempool_register() be=0x7f3274818c20, name=0x7f327460964e
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:147 eina_mempool_register() be=0x7f3274818c80, name=0x7f3274604ef0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=list, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=list, options=, mp=0x16ab100
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=list_accounting, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=list_accounting, options=, mp=0x16ab1c0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=matrixsparse_cell, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=matrixsparse_cell, options=, mp=0x16ac3b0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=matrixsparse_row, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=matrixsparse_row, options=, mp=0x16ac480
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=rectangle-alloc, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=rectangle-alloc, options=, mp=0x16ac610
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=rectangle, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=rectangle, options=, mp=0x16ac6e0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=QuadTree Item, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=QuadTree Item, options=, mp=0x16ac7f0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=QuadTree Root, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=QuadTree Root, options=, mp=0x16ac8c0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=simple_xml_tag, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=simple_xml_tag, options=, mp=0x16ac9d0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=simple_xml_attribute, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=simple_xml_attribute, options=, mp=0x16acaa0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=value, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=value, options=, mp=0x16acca0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=gc, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=gc, options=, mp=0x16acdf0
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:491 eina_prefix_new() EINA PREFIX: argv0=(null), symbol=0x7f3273f6b2e0, magicsharefile=checkme, envprefix=ECORE
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:493 eina_prefix_new() EINA PREFIX: share=ecore, bin=/home/luciana/Enlightenment/local/bin, lib=/home/luciana/Enlightenment/local/lib, data=/home/luciana/Enlightenment/local/share/ecore, locale=/home/luciana/Enlightenment/local/share/ecore
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:557 eina_prefix_new() Prefix common=/home/luciana/Enlightenment/local/, bin=bin, lib=lib, data=share/ecore, locale=share/ecore
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env ECORE_PREFIX or ECORE_BIN_DIR for dir 'bin'
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env ECORE_PREFIX or ECORE_LIB_DIR for dir 'lib'
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env ECORE_PREFIX or ECORE_DATA_DIR for dir 'share/ecore'
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env ECORE_PREFIX or ECORE_LOCALE_DIR for dir 'share/ecore'
+INF<24855>:eina_prefix lib/eina/eina_prefix.c:591 eina_prefix_new() dladdr for symbol=0x7f3273f6b2e0: /home/luciana/Enlightenment/local/lib/libecore.so.1
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:644 eina_prefix_new() From exe /home/luciana/Enlightenment/local/lib/libecore.so.1 figure out the rest
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:663 eina_prefix_new() Have prefix = /home/luciana/Enlightenment/local
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:668 eina_prefix_new() Have bin = /home/luciana/Enlightenment/local/bin
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:675 eina_prefix_new() Have lib = /home/luciana/Enlightenment/local/lib
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:682 eina_prefix_new() Have locale = /home/luciana/Enlightenment/local/share/ecore
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:691 eina_prefix_new() Magic = checkme
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:696 eina_prefix_new() Check in /home/luciana/Enlightenment/local/share/ecore/checkme
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:702 eina_prefix_new() Magic path /home/luciana/Enlightenment/local/share/ecore/checkme stat passed
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Ecore_Event_Handler, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Ecore_Event_Handler, options=, mp=0x16adfd0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Ecore_Event_Filter, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Ecore_Event_Filter, options=, mp=0x16ae0a0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Ecore_Event, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Ecore_Event, options=, mp=0x16ae170
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Ecore_Pipe, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Ecore_Pipe, options=, mp=0x16ae240
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Ecore_Fd_Handler, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Ecore_Fd_Handler, options=, mp=0x16ae310
+DBG<24855>:ecore lib/ecore/ecore_main.c:352 _ecore_epoll_add() adding poll on 4 00000001
+DBG<24855>:ecore lib/ecore/ecore_time.c:96 _ecore_time_init() using CLOCK_MONOTONIC.
+DBG<24855>:ecore lib/ecore/ecore_main.c:352 _ecore_epoll_add() adding poll on 5 00000001
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Eo_Base'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Eo_Base'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Eo_Base'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Eo_Base'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Eo_Base'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Eo_Base'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Eo_Base':0x16b4550
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f32748279a0 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     2 0x7f3274825800->0x7f3274826640 'Get an iterator on all childrens'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     3 0x7f32748256f0->0x7f32748259c0 'Add a callback for an event with a specific priority.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     4 0x7f3274825610->0x7f3274826930 'Call the callbacks for an event of an object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     5 0x7f3274825530->0x7f3274825ac0 'Add an event callback forwarder for an event and an object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     6 0x7f3274825460->0x7f3274824340 'Get dbg information from the object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     7 0x7f3274825390->0x7f32748243a0 'Add a new weak reference to obj.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     8 0x7f32748252a0->0x7f3274825b70 'Add a callback array for an event with a specific priority.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     9 0x7f32748251d0->0x7f3274825d00 'Del generic data from object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    10 0x7f3274825120->0x7f3274825ef0 'thaw events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    11 0x7f3274825030->0x7f32748261d0 'Del a callback with a specific data associated to it for an event.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    12 0x7f3274824f50->0x7f3274825d80 'Get generic data from object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    13 0x7f3274824e60->0x7f3274825df0 'Set generic data to object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    14 0x7f3274824d90->0x7f3274825e90 'Called at the end of #eo_add. Should not be called, just overridden.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f32748276a0 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    16 0x7f3274824c10->0x7f3274825fa0 'Delete the weak reference passed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    17 0x7f3274824b30->0x7f32748262d0 'Del a callback array with a specific data associated to it for an event.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    18 0x7f3274824a80->0x7f3274824370 'freeze events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    19 0x7f32748249d0->0x7f3274824350 'freeze events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    20 0x7f3274824920->0x7f3274825f40 'thaw events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    21 0x7f3274824840->0x7f3274825c40 'Remove an event callback forwarder for an event and an object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    22 0x7f3274824780->0x7f3274824360 'return freeze events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    23 0x7f32748246c0->0x7f3274824380 'return freeze events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    24 0x7f32748245f0->0x7f32748242e0 'Get the parent of an object'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    25 0x7f3274824520->0x7f3274827810 'Set the parent of an object'
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Eo_Base'
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Ecore_Parent'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Ecore_Parent'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Ecore_Parent'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Ecore_Parent'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Ecore_Parent'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Ecore_Parent'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Ecore_Parent' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Ecore_Parent':0x16b37e0
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Ecore_Parent'
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x8000000000000001 - Eo_Base.
+DBG<24855>:eina_module lib/eina/eina_module.c:277 eina_module_new() m=0x16b3bb0, file=/home/luciana/Enlightenment/local/lib/ecore/system/upower/v-1.11/module.so
+DBG<24855>:eina_module lib/eina/eina_module.c:557 eina_module_list_load() array 0x16b3b80, count 1
+DBG<24855>:eina_module lib/eina/eina_module.c:305 eina_module_load() m=0x16b3bb0, handle=(nil), file=/home/luciana/Enlightenment/local/lib/ecore/system/upower/v-1.11/module.so, refs=0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1045 eldbus_connection_get() Getting connection with type 2
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:941 eldbus_connection_setup() Setting up connection 0x16a9050
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:623 cb_watch_add() cb_watch_add (enabled: 7)
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:598 eldbus_fd_handler_add() Watching fd 7 with flags: [read error]
+DBG<24855>:ecore lib/ecore/ecore_main.c:352 _ecore_epoll_add() adding poll on 7 0000000b
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:789 cb_dispatch_status() Connection@0x16a9050: Dispatch status: 0
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Ecore_Idler'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Ecore_Idler'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Ecore_Idler'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Ecore_Idler'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Ecore_Idler'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Ecore_Idler'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Ecore_Idler' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Ecore_Idler':0x16ba780
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f3273f72a10 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f3273f73060 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    28 0x7f3273f72930->0x7f3273f72f40 ''
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Ecore_Idler'
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x8000000020000002 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:795 cb_dispatch_status() Connection@0x16a9050: Adding idler@0x8000000020000002 to handle remaining dispatch data
+DBG<24855>:eldbus lib/eldbus/eldbus_signal_handler.c:182 _eldbus_signal_handler_add() conn=0x16a9050, sender=(null), path=/org/freedesktop/DBus/Local, interface=org.freedesktop.DBus.Local, member=Disconnected, cb=0x7f32700c5a40 0x16a9050
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Ecore_Timer'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Ecore_Timer'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Ecore_Timer'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Ecore_Timer'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Ecore_Timer'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Ecore_Timer'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Ecore_Timer' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Ecore_Timer':0x16b9eb0
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f3273f77ab0 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f3273f789f0 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    19 0x7f32748249d0->0x7f3273f77a30 'freeze events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    20 0x7f3274824920->0x7f3273f78420 'thaw events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    22 0x7f3274824780->0x7f3273f773c0 'return freeze events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    32 0x7f3273f778e0->0x7f3273f78940 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    33 0x7f3273f777e0->0x7f3273f789a0 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    34 0x7f3273f77700->0x7f3273f78510 'Add some delay for the next occurrence of a timer.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    35 0x7f3273f77650->0x7f3273f78530 'Reset a timer to its full interval. This effectively makes'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    36 0x7f3273f77580->0x7f3273f779e0 'Get the pending time regarding a timer.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    37 0x7f3273f774b0->0x7f3273f773b0 'Get the interval the timer ticks on.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    38 0x7f3273f773d0->0x7f3273f773a0 'Change the interval the timer ticks off. If set during'
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Ecore_Timer'
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x8000000040000003 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16b5130
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1029 _connection_get() Returned new connection at 0x16a9050
+DBG<24855>:eldbus lib/eldbus/eldbus_pending.c:116 _eldbus_connection_send() conn=0x16a9050, msg=0x16b4720, cb=0x7f32700c5bf0, cb_data=0x16bd780, timeout=-1.000000
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x8000000060000004 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_signal_handler.c:182 _eldbus_signal_handler_add() conn=0x16a9050, sender=org.freedesktop.DBus, path=/org/freedesktop/DBus, interface=org.freedesktop.DBus, member=NameOwnerChanged, cb=0x7f32700c5cf0 0x16bd780
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x8000000080000005 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16bdcb0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16be310
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x80000000a0000006 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16bdeb0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x80000000c0000007 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16bdf30
+DBG<24855>:eldbus lib/eldbus/eldbus_signal_handler.c:182 _eldbus_signal_handler_add() conn=0x16a9050, sender=org.freedesktop.UPower, path=/org/freedesktop/UPower, interface=org.freedesktop.DBus.Properties, member=PropertiesChanged, cb=0x7f32702e54c0 0x16c0180
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x80000000e0000008 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16c0530
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x8000000100000009 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16c02b0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x800000012000000a - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x16c02b0
+DBG<24855>:ecore_system_upower modules/ecore/system/upower/ecore_system_upower.c:235 _ecore_system_upower_init() ecore system 'upower' loaded
+DBG<24855>:eina_module lib/eina/eina_module.c:335 eina_module_load() successfully loaded /home/luciana/Enlightenment/local/lib/ecore/system/upower/v-1.11/module.so
+DBG<24855>:eina_module lib/eina/eina_module.c:339 eina_module_load() ref 1
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Eet_File_Directory, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Eet_File_Directory, options=, mp=0x16c0510
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Eet_File_Node, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Eet_File_Node, options=, mp=0x16c1150
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Eet_File_Header, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Eet_File_Header, options=, mp=0x16c1220
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Eet_Dictionary, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Eet_Dictionary, options=, mp=0x16c12f0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Eet_File, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Eet_File, options=, mp=0x16c13c0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=eet-node-alloc, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=eet-node-alloc, options=, mp=0x16c1490
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:491 eina_prefix_new() EINA PREFIX: argv0=(null), symbol=0x7f327427fcd0, magicsharefile=checkme, envprefix=EVAS
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:493 eina_prefix_new() EINA PREFIX: share=evas, bin=/home/luciana/Enlightenment/local/bin, lib=/home/luciana/Enlightenment/local/lib, data=/home/luciana/Enlightenment/local/share/evas, locale=/home/luciana/Enlightenment/local/share/evas
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:557 eina_prefix_new() Prefix common=/home/luciana/Enlightenment/local/, bin=bin, lib=lib, data=share/evas, locale=share/evas
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env EVAS_PREFIX or EVAS_BIN_DIR for dir 'bin'
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env EVAS_PREFIX or EVAS_LIB_DIR for dir 'lib'
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env EVAS_PREFIX or EVAS_DATA_DIR for dir 'share/evas'
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:410 _get_env_var() No env EVAS_PREFIX or EVAS_LOCALE_DIR for dir 'share/evas'
+INF<24855>:eina_prefix lib/eina/eina_prefix.c:591 eina_prefix_new() dladdr for symbol=0x7f327427fcd0: /home/luciana/Enlightenment/local/lib/libevas.so.1
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:644 eina_prefix_new() From exe /home/luciana/Enlightenment/local/lib/libevas.so.1 figure out the rest
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:663 eina_prefix_new() Have prefix = /home/luciana/Enlightenment/local
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:668 eina_prefix_new() Have bin = /home/luciana/Enlightenment/local/bin
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:675 eina_prefix_new() Have lib = /home/luciana/Enlightenment/local/lib
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:682 eina_prefix_new() Have locale = /home/luciana/Enlightenment/local/share/evas
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:691 eina_prefix_new() Magic = checkme
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:696 eina_prefix_new() Check in /home/luciana/Enlightenment/local/share/evas/checkme
+DBG<24855>:eina_prefix lib/eina/eina_prefix.c:702 eina_prefix_new() Magic path /home/luciana/Enlightenment/local/share/evas/checkme stat passed
+DBG<24855>:ecore lib/ecore/ecore_main.c:352 _ecore_epoll_add() adding poll on 8 00000001
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Ecore_Idle_Enterer'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Ecore_Idle_Enterer'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Ecore_Idle_Enterer'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Ecore_Idle_Enterer'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Ecore_Idle_Enterer'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Ecore_Idle_Enterer'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Ecore_Idle_Enterer' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Ecore_Idle_Enterer':0x16d93b0
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f3273f71a60 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f3273f72170 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    45 0x7f3273f71980->0x7f3273f720f0 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    46 0x7f3273f718a0->0x7f3273f72130 ''
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Ecore_Idle_Enterer'
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x800000014000000b - Eo_Base.
+DBG<24855>:ecore_evas lib/ecore_evas/ecore_evas.c:781 _ecore_evas_new_auto_discover() auto discover engine
+DBG<24855>:eina_module lib/eina/eina_module.c:277 eina_module_new() m=0x16d9a50, file=/home/luciana/Enlightenment/local/lib/ecore_evas/engines/x/v-1.11/module.so
+DBG<24855>:eina_module lib/eina/eina_module.c:305 eina_module_load() m=0x16d9a50, handle=(nil), file=/home/luciana/Enlightenment/local/lib/ecore_evas/engines/x/v-1.11/module.so, refs=0
+DBG<24855>:eina_module lib/eina/eina_module.c:335 eina_module_load() successfully loaded /home/luciana/Enlightenment/local/lib/ecore_evas/engines/x/v-1.11/module.so
+DBG<24855>:eina_module lib/eina/eina_module.c:339 eina_module_load() ref 1
+DBG<24855>:eina_module lib/eina/eina_module.c:277 eina_module_new() m=0x16e1660, file=/home/luciana/Enlightenment/local/lib/evas/modules/engines/software_x11/v-1.11/module.so
+DBG<24855>:eina_module lib/eina/eina_module.c:305 eina_module_load() m=0x16e1660, handle=(nil), file=/home/luciana/Enlightenment/local/lib/evas/modules/engines/software_x11/v-1.11/module.so, refs=0
+DBG<24855>:eina_module lib/eina/eina_module.c:335 eina_module_load() successfully loaded /home/luciana/Enlightenment/local/lib/evas/modules/engines/software_x11/v-1.11/module.so
+DBG<24855>:eina_module lib/eina/eina_module.c:339 eina_module_load() ref 1
+DBG<24855>:ecore lib/ecore/ecore_main.c:352 _ecore_epoll_add() adding poll on 10 00000001
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Evas_Common_Interface'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Evas_Common_Interface'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Evas_Common_Interface'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Evas_Common_Interface'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Evas_Common_Interface'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Evas_Common_Interface'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Evas_Common_Interface' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Evas_Common_Interface':0x17072c0
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    50 0x7f32741de020->(nil) 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Evas_Common_Interface'
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Evas_Canvas'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Evas_Canvas'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Evas_Canvas'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Evas_Canvas'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Evas_Canvas'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Evas_Canvas'
+DBG<24855>:eo lib/eo/eo.c:1344 eo_class_new() Added 'Evas_Common_Interface' extension
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Evas_Canvas' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Evas_Canvas':0x1708ec0
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f32741ee740 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f32741f0a70 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    52 0x7f32741edd60->0x7f32741e67a0 'Key up event feed with keycode'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    53 0x7f32741edc00->0x7f32741e6780 'Key down event feed with keycode'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    54 0x7f32741edb30->0x7f32741e81e0 'Convert/scale a canvas co-ordinate into output screen co-ordinates'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    55 0x7f32741eda80->0x7f3274268c60 'Make the canvas discard internally cached data used for rendering.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    56 0x7f32741ed9b0->0x7f32741e72e0 'Adds the @p keyname key to the current list of lock keys.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    57 0x7f32741ed8e0->0x7f32741e8150 'Convert/scale an output screen co-ordinate into canvas co-ordinates'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    58 0x7f32741ed800->0x7f32741e5970 'Mouse cancel event feed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    59 0x7f32741ed750->0x7f3274262490 'Remove all "obscured regions" from an Evas canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    60 0x7f32741ed680->0x7f327425c5c0 'Prepends a font path to the list of font paths used by the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    61 0x7f32741ed4a0->0x7f32741e6680 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    62 0x7f32741ed3f0->0x7f3274268c30 'Force renderization of the given canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    63 0x7f32741ed2a0->0x7f327420d5a0 'Retrieve the Evas object stacked at the top of a given rectangular'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    64 0x7f32741ed1c0->0x7f32741e5fa0 'Mouse in event feed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    65 0x7f32741ed110->0x7f32742690b0 'Make the canvas discard as much data as possible used by the engine at'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    66 0x7f32741ed010->0x7f3274262460 'Add an "obscured region" to an Evas canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    67 0x7f32741ecf60->0x7f32741edff0 'Inform to the evas that it got the focus.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    68 0x7f32741ece90->0x7f327426f570 'This function returns the @p state of nth touch point.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    69 0x7f32741ecdc0->0x7f32741e7200 'Removes the @p keyname key from the current list of modifier keys'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    70 0x7f32741eccf0->0x7f32741e8180 'Convert/scale an output screen co-ordinate into canvas co-ordinates'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    71 0x7f32741ecc40->0x7f32741fc7a0 'Flush the image cache of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    72 0x7f32741ecb70->0x7f3274268c00 'Force immediate renderization of the given Evas canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    73 0x7f32741ec9b0->0x7f32741e66d0 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    74 0x7f32741ec8e0->0x7f32741e81b0 'Convert/scale a canvas co-ordinate into output screen co-ordinates'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    75 0x7f32741ec830->0x7f32741fd210 'Reload the image cache'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    76 0x7f32741ec760->0x7f327425c600 'Retrieves the list of font paths used by the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    77 0x7f32741ec6b0->0x7f3274268f60 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    78 0x7f32741ec5b0->0x7f3274262420 'Add a damage rectangle.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    79 0x7f32741ec4e0->0x7f32741e7360 'Removes the @p keyname key from the current list of lock keys on'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    80 0x7f32741ec3f0->0x7f327426f4e0 'This function returns the nth touch point's co-ordinates.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    81 0x7f32741ec340->0x7f327421e9d0 'Call user-provided @c calculate() smart functions and unset the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    82 0x7f32741ec290->0x7f327425c540 'Removes all font paths loaded into memory for the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    83 0x7f32741ec1c0->0x7f327426f540 'This function returns the @p id of nth touch point.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    84 0x7f32741ec0f0->0x7f327425c580 'Appends a font path to the list of font paths used by the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    85 0x7f32741ec010->0x7f32741f11d0 'Retrieves the object on the given evas with the given name.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    86 0x7f32741ebec0->0x7f327420e640 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    87 0x7f32741ebdf0->0x7f327425c920 'List of available font descriptions known or found by this evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    88 0x7f32741ebd10->0x7f32741e6c90 'Re feed event.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    89 0x7f32741ebc10->0x7f32741e4b50 'Mouse down event feed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    90 0x7f32741ebb10->0x7f32741e5260 'Mouse up event feed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    91 0x7f32741eba40->0x7f32741e7450 'Enables or turns on programmatically the modifier key with name @p'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    92 0x7f32741eb920->0x7f327420c410 'Retrieve the Evas object stacked at the top of a given position in'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    93 0x7f32741eb850->0x7f327425c860 'Checks if the font hinting is supported by the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    94 0x7f32741eb7a0->0x7f327425c890 'Force the given evas and associated engine to flush its font cache.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    95 0x7f32741eb6f0->0x7f32741e82b0 'Push the nochange flag up 1'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    96 0x7f32741eb620->0x7f32741e74f0 'Disables or turns off programmatically the lock key with name @p'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    97 0x7f32741eb570->0x7f32741e82c0 'Pop the nochange flag down 1'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    98 0x7f32741eb390->0x7f32741e6400 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    99 0x7f32741eb2d0->0x7f327426f4c0 'Get the number of touched point in the evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   100 0x7f32741eb220->0x7f3274268c50 'Update the canvas internal objects but not triggering immediate'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   101 0x7f32741eb120->0x7f32741e5f80 'Mouse move event feed from input.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   102 0x7f32741eb070->0x7f32741ee020 'Inform to the evas that it lost the focus.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   103 0x7f32741eafb0->0x7f3274268b60 'Render the given Evas canvas asynchronously.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   104 0x7f32741eadd0->0x7f32741e6540 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   105 0x7f32741eabf0->0x7f32741e6670 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   106 0x7f32741eaad0->0x7f327420de30 'Retrieve a list of Evas objects lying over a given position in'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   107 0x7f32741ea910->0x7f32741e6690 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   108 0x7f32741ea830->0x7f32741e61e0 'Mouse out event feed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   109 0x7f32741ea6f0->0x7f32741e6740 'Key up event feed'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   110 0x7f32741ea5f0->0x7f32741e5f90 'Mouse move event feed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   111 0x7f32741ea510->0x7f32741e67c0 'Hold event feed'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   112 0x7f32741ea440->0x7f32741e7480 'Disables or turns off programmatically the modifier key with name'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   113 0x7f32741ea370->0x7f32741e7180 'Adds the @p keyname key to the current list of modifier keys.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   114 0x7f32741ea2a0->0x7f32741e7530 'Creates a bit mask from the @p keyname @b modifier key. Values'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   115 0x7f32741ea160->0x7f32741e6700 'Key down event feed'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   116 0x7f32741ea090->0x7f32741e74c0 'Enables or turns on programmatically the lock key with name @p'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   117 0x7f32741e9f90->0x7f32741e5a70 'Mouse wheel event feed.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   118 0x7f32741e9e80->0x7f32741e1610 'Retrieve a list of Evas objects lying over a given position in'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   119 0x7f32741e9dc0->0x7f32741e8250 'Returns a bitmask with the mouse buttons currently pressed, set to 1'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   120 0x7f32741e9cf0->0x7f32741e70e0 'Returns a handle to the list of modifier keys registered in the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   121 0x7f32741e9c20->0x7f327426e700 'Get the lowest (stacked) Evas object on the canvas @p e.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   122 0x7f32741e9b40->0x7f32741fc830 'Get the maximum image size evas can possibly handle'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   123 0x7f32741e9a80->0x7f32741e8260 'Returns whether the mouse pointer is logically inside the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   124 0x7f32741e99a0->0x7f32741e8210 'This function returns the current known pointer co-ordinates'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   125 0x7f32741e98e0->0x7f32741e82a0 'Get the changed marker for the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   126 0x7f32741e9820->0x7f32741e8290 'Get the focus state known by the given evas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   127 0x7f32741e9760->0x7f327421e800 'This gets the internal counter that counts the number of smart calculations'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   128 0x7f32741e96a0->0x7f32741e6e70 'Get the number of mouse or multi presses currently active'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   129 0x7f32741e95c0->0x7f32741e8230 'This function returns the current known pointer co-ordinates'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   130 0x7f32741e94f0->0x7f32741e70f0 'Returns a handle to the list of lock keys registered in the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   131 0x7f32741e9420->0x7f327426e780 'Get the highest (stacked) Evas object on the canvas @p e.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   132 0x7f32741e9350->0x7f32741e7010 'Retrieve the object that currently has focus.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   133 0x7f32741e9280->0x7f32741e8050 'Retrieves the current render engine info struct from the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   134 0x7f32741e91b0->0x7f32741edf00 'Applies the engine settings for the given evas from the given @c'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   135 0x7f32741e90f0->0x7f327425c850 'Retrieves the font hinting used by the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   136 0x7f32741e9030->0x7f327425c7f0 'Changes the font hinting for the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   137 0x7f32741e8f60->0x7f32741e8280 'Returns the pointer attached by evas_data_attach_set()'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   138 0x7f32741e8e90->0x7f32741e8270 'Attaches a specific pointer to the evas for fetching later'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   139 0x7f32741e8db0->0x7f32741e8070 'Retrieve the output size of the render engine of the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   140 0x7f32741e8ce0->0x7f32741edec0 'Sets the output size of the render engine of the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   141 0x7f32741e8c20->0x7f327425c900 'Changes the size of font cache of the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   142 0x7f32741e8b60->0x7f327425c8c0 'Changes the size of font cache of the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   143 0x7f32741e8aa0->0x7f32741e8040 'Retrieves the number of the output engine used for the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   144 0x7f32741e89e0->0x7f32741ee050 'Sets the output engine for the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   145 0x7f32741e8920->0x7f32741e49d0 'Get the default set of flags an event begins with'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   146 0x7f32741e8860->0x7f32741e49c0 'Set the default set of flags an event begins with'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   147 0x7f32741e87a0->0x7f32741fc810 'Get the image cache'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   148 0x7f32741e86e0->0x7f32741fc7d0 'Set the image cache.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   149 0x7f32741e85e0->0x7f32741e8090 'Get the render engine's output viewport co-ordinates in canvas units.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   150 0x7f32741e84e0->0x7f32741edf50 'Sets the output viewport of the given evas in evas units.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   151 0x7f32741e83e0->0x7f32741e8110 'Get the render engine's output framespace co-ordinates in canvas units.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   152 0x7f32741e82e0->0x7f32741e80c0 'Sets the output framespace size of the render engine of the given evas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    50 0x7f32741de020->0x7f32741e82d0 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Evas_Canvas'
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x800000016000000c - Eo_Base.
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Rect, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Rect, options=, mp=0x1708a60
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Line, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Line, options=, mp=0x1708980
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Polygon, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Polygon, options=, mp=0x16b0480
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Image, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Image, options=, mp=0x1705b20
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Font, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Font, options=, mp=0x1706fa0
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Map, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Map, options=, mp=0x1702d30
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Multi_Font, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Thread_Command_Multi_Font, options=, mp=0x1707eb0
+DBG<24855>:evas_main modules/evas/engines/software_generic/evas_engine.c:4005 init_gl() Initializing Software OpenGL APIs...
+
+DBG<24855>:evas_main modules/evas/engines/software_generic/evas_engine.c:3985 gl_lib_init() Unable to open libOSMesa:  libOSMesa.so: cannot open shared object file: No such file or directory
+DBG<24855>:evas_main modules/evas/engines/software_generic/evas_engine.c:4008 init_gl() Unable to support EvasGL in this engine module. Install OSMesa to get it running
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:112 _drm_tick_schedule() sched...
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:189 _drm_tick_core() ------- drm_event_is_busy=0
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:192 _drm_tick_core() wait...
+
+INF<24855>:ecore_evas lib/ecore_evas/ecore_evas.c:788 _ecore_evas_new_auto_discover() auto discovered 'software_x11'
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Evas_Object'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Evas_Object'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Evas_Object'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Evas_Object'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Evas_Object'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Evas_Object'
+DBG<24855>:eo lib/eo/eo.c:1344 eo_class_new() Added 'Evas_Common_Interface' extension
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Evas_Object' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Evas_Object':0x170fcb0
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f327420ba50 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     6 0x7f3274825460->0x7f32742101d0 'Get dbg information from the object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f32742133e0 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   157 0x7f32742080f0->0x7f32742041b0 'Checks whether a given smart object or any of its smart object'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   158 0x7f3274208020->0x7f32742209d0 'Moves all children objects of a given smart object relative to a'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   159 0x7f3274207f70->0x7f32741ddda0 'Disable/cease clipping on a clipped @p obj object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   160 0x7f3274207ec0->0x7f327426d8a0 'Lower @p obj to the bottom of its layer.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   161 0x7f3274207dd0->0x7f32741e78e0 'Removes the grab on @p keyname key events by @p obj.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   162 0x7f3274207ce0->0x7f32741f11f0 'Retrieves the object from children of the given object with the given name.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   163 0x7f3274207c10->0x7f32742041a0 'Checks whether a given smart object or any of its smart object'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   164 0x7f3274207b40->0x7f327426dd00 'Stack @p obj immediately above @p above'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   165 0x7f3274207a90->0x7f327426d440 'Raise @p obj to the top of its layer.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   166 0x7f32742079c0->0x7f327426e160 'Stack @p obj immediately below @p below'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   167 0x7f32742078b0->0x7f32741e7740 'Requests @p keyname key events be directed to @p obj.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   168 0x7f32742077f0->0x7f32741de010 'Test if any object is clipped by @p obj.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   169 0x7f3274207730->0x7f3274203fe0 'Retrieves the hints for an object's display mode'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   170 0x7f3274207670->0x7f3274208710 'Sets the hints for an object's disply mode'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   171 0x7f32742075a0->0x7f327426e5c0 'Get the Evas object stacked right above @p obj'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   172 0x7f32742074d0->0x7f3274204170 'Gets the parent smart object of a given Evas object, if it has one.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   173 0x7f3274207400->0x7f32741ddfb0 'Return a list of objects currently clipped by @p obj.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   174 0x7f3274207330->0x7f327426e660 'Get the Evas object stacked right below @p obj'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   175 0x7f3274207260->0x7f3274220c10 'Get the clipper object for the given clipped smart object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   176 0x7f3274207190->0x7f3274204190 'Retrieve user data stored on a given smart object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   177 0x7f3274207090->0x7f3274208550 'Retrieves the general/main color of the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   178 0x7f3274206f90->0x7f327420acb0 'Sets the general/main color of the given Evas object to the given'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   179 0x7f3274206ed0->0x7f3274204030 'Retrieves whether or not the given Evas object is to be drawn anti_aliased.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   180 0x7f3274206e00->0x7f327420afc0 'Sets whether or not the given Evas object is to be drawn anti-aliased.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   181 0x7f3274206d20->0x7f3274208220 'Retrieves the position of the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   182 0x7f3274206c50->0x7f327420ee70 'Move the given Evas object to the given location inside its canvas' viewport.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   183 0x7f3274206b90->0x7f32741e6bd0 'Determine whether an object is set to pass (ignore) events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   184 0x7f3274206ac0->0x7f32741e6b70 'Set whether an Evas object is to pass (ignore) events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   185 0x7f3274206a00->0x7f32741e6c50 'Retrieve whether an Evas object is set to propagate events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   186 0x7f3274206930->0x7f32741e6c30 'Set whether events on a smart object's member should get propagated'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   187 0x7f3274206850->0x7f3274208410 'Retrieves the hints for on object's alignment.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   188 0x7f3274206760->0x7f3274208770 'Sets the hints for an object's alignment.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   189 0x7f32742066a0->0x7f3274204120 'Determine whether an object is set to use precise point collision'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   190 0x7f32742065d0->0x7f3274204100 'Set whether to use precise (usually expensive) point collision'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   191 0x7f3274206510->0x7f327426fbb0 'Get the map enabled state'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   192 0x7f3274206440->0x7f32742700c0 'Enable or disable the map that is set.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   193 0x7f3274206380->0x7f3274204160 '@since 1.2'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   194 0x7f32742062b0->0x7f3274212cd0 '@since 1.2'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   195 0x7f32742061f0->0x7f32741e7000 'Retrieve whether an object has the focus.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   196 0x7f3274206120->0x7f32741e6e80 'Sets or unsets a given object as the currently focused one on its'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   197 0x7f3274206040->0x7f3274208270 'Retrieves the (rectangular) size of the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   198 0x7f3274205f70->0x7f327420f470 'Changes the size of the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   199 0x7f3274205eb0->0x7f3274204150 'Get the "static clipper" hint flag for a given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   200 0x7f3274205de0->0x7f3274204130 'Set a hint flag on the given Evas object that it's used as a "static'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   201 0x7f3274205d10->0x7f3274204050 'Retrieves the scaling factor for the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   202 0x7f3274205c30->0x7f327420b050 'Sets the scaling factor for an Evas object. Does not affect all'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   203 0x7f3274205b60->0x7f32741f11c0 'Retrieves the name of the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   204 0x7f3274205a90->0x7f32741f1120 'Sets the name of the given Evas object to the given name.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   205 0x7f32742059b0->0x7f3274208470 'Retrieves the hints for an object's weight.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   206 0x7f32742058c0->0x7f32742087f0 'Sets the hints for an object's weight.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   207 0x7f3274205800->0x7f32741e6c20 'Determine whether an object is set to repeat events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   208 0x7f3274205730->0x7f32741e6be0 'Set whether an Evas object is to repeat events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   209 0x7f3274205630->0x7f32742084d0 'Retrieves the hints for an object's padding space.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   210 0x7f3274205530->0x7f3274208870 'Sets the hints for an object's padding space.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   211 0x7f3274205460->0x7f32741ddd80 'Get the object clipping @p obj (if any).'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   212 0x7f3274205390->0x7f32741dd860 'Clip one object to another.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   213 0x7f32742052d0->0x7f32741e8000 'Retrieves the layer of its canvas that the given object is part of.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   214 0x7f3274205200->0x7f32741e7e10 'Sets the layer of its canvas that the given object will be part of.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   215 0x7f3274205110->0x7f32742083a0 'Retrieves the hints for an object's aspect ratio.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   216 0x7f3274205030->0x7f3274208910 'Sets the hints for an object's aspect ratio.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   217 0x7f3274204f60->0x7f327426fbc0 'Get current object transformation map.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   218 0x7f3274204e90->0x7f3274270310 'Set current object transformation map.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   219 0x7f3274204dd0->0x7f32741e6b60 'Determine whether an object is set to freeze (discard) events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   220 0x7f3274204d00->0x7f32741e6af0 'Set whether an Evas object is to freeze (discard) events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   221 0x7f3274204c40->0x7f3274204080 'Retrieves the current value of the operation used for rendering the Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   222 0x7f3274204b80->0x7f327420b0f0 'Sets the render_op to be used for rendering the Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   223 0x7f3274204ac0->0x7f32741e6c80 'Determine how pointer will behave.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   224 0x7f3274204a00->0x7f32741e6c60 'Set pointer behavior.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   225 0x7f3274204920->0x7f32742082b0 'Retrieves the hints for an object's minimum size.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   226 0x7f3274204850->0x7f3274208990 'Sets the hints for an object's minimum size.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   227 0x7f3274204780->0x7f32742040d0 'Retrieves the type of the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   228 0x7f32742046b0->0x7f32742040f0 'Sets the type of the given Evas object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   229 0x7f32742045f0->0x7f3274204010 'Retrieves whether or not the given Evas object is visible.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   230 0x7f3274204520->0x7f327420c090 'Makes the given Evas object visible or invisible.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   231 0x7f3274204440->0x7f3274208350 'Retrieves the hints for an object's optimum size.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   232 0x7f3274204370->0x7f3274208a00 'Sets the hints for an object's optimum size.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   233 0x7f3274204290->0x7f3274208300 'Retrieves the hints for an object's maximum size.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   234 0x7f32742041c0->0x7f3274208a70 'Sets the hints for an object's maximum size.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    50 0x7f32741de020->0x7f32742040a0 'No description supplied by the EAPI.'
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Evas_Object'
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Evas_Image'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Evas_Image'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Evas_Image'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Evas_Image'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Evas_Image'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Evas_Image'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Evas_Image' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Evas_Object' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Evas_Image':0x17109c0
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f32741fdac0 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     6 0x7f3274825460->0x7f3274201eb0 'Get dbg information from the object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f3274200e60 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   240 0x7f32741f6400->0x7f32741fcd10 'Reload an image object's image data.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   241 0x7f32741f6330->0x7f32741f6970 'Import pixels from given source to a given canvas image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   242 0x7f32741f6250->0x7f32741f9100 'Converts the raw image data of the given image object to the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   243 0x7f32741f61a0->0x7f32741f9c20 'Cancel preloading an image object's image data in the background'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   244 0x7f32741f60c0->0x7f32741f6c90 'Get a pointer to the raw image data of the given image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   245 0x7f32741f5ff0->0x7f32741f6f80 'Sets the raw image data of the given image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   246 0x7f32741f5f00->0x7f32741f9240 'Save the given image object's contents to an (image) file.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   247 0x7f32741f5e10->0x7f32741f15f0 'Get the duration of a sequence of frames.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   248 0x7f32741f5d10->0x7f32741f79f0 'Mark a sub-region of the given image object to be redrawn.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   249 0x7f32741f5c60->0x7f32741f6c10 'Begin preloading an image object's image data in the background'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   250 0x7f32741f5b50->0x7f32741f21e0 'Get the value of the extra padding set when a filter is used.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   251 0x7f32741f5a70->0x7f32741f7e00 'Bind an object to use as a mask or texture with Evas Filters.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   252 0x7f32741f59a0->0x7f32741f9ca0 'Set an Evas filter program on this Text Object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   253 0x7f32741f58d0->0x7f32741f12a0 'Get the 3D scene of a given image of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   254 0x7f32741f5800->0x7f32741fd920 'Set the 3D scene of a given image of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   255 0x7f32741f5740->0x7f32742036e0 'Get the number times the animation of the object loops.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   256 0x7f32741f5680->0x7f3274203750 'Get the kind of looping the image object does.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   257 0x7f32741f55c0->0x7f32741f16a0 'Check if an image object can be animated (have multiple frames)'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   258 0x7f32741f5500->0x7f32741f1390 'Retrieves the row stride of the given image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   259 0x7f32741f5440->0x7f32742037c0 'Get the total number of frames of the image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   260 0x7f32741f5380->0x7f32741f13a0 'Retrieves a number representing any error that occurred during the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   261 0x7f32741f52c0->0x7f32741f1700 'Get the support state of a given image'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   262 0x7f32741f5200->0x7f3274203830 'Set the frame to current frame of an image object'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   263 0x7f32741f5130->0x7f32741f7360 'Replaces the raw image data of the given image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   264 0x7f32741f5050->0x7f32741f1210 'Get the source mmaped file from where an image object must fetch the real'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   265 0x7f32741f4f70->0x7f32741fa4f0 'Set the source mmaped file from where an image object must fetch the real'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   266 0x7f32741f4e90->0x7f32741f18e0 'Set the callback function to get pixels from a canvas' image.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   267 0x7f32741f4dd0->0x7f32741f1470 'Get the colorspace of a given image of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   268 0x7f32741f4d10->0x7f32741f6ac0 'Set the colorspace of a given image of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   269 0x7f32741f4c50->0x7f32741f1750 'Determine whether an object is set to source events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   270 0x7f32741f4b80->0x7f32741f1920 'Set whether an Evas object is to source events.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   271 0x7f32741f4ac0->0x7f32741f14c0 'Get the scale hint of a given image of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   272 0x7f32741f4a00->0x7f32741f19b0 'Set the scale hint of a given image of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   273 0x7f32741f4940->0x7f32741f1410 'get the scale down factor of a given image object's source image,'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   274 0x7f32741f4880->0x7f32741fce60 'Set the scale down factor of a given image object's source image,'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   275 0x7f32741f47b0->0x7f32741f1780 'Get the native surface of a given image of the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   276 0x7f32741f46e0->0x7f32741f6b70 'Set the native surface of a given image of the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   277 0x7f32741f45e0->0x7f32741f1320 'Retrieve how an image object is to fill its drawing rectangle,'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   278 0x7f32741f44e0->0x7f32741f88d0 'Set how to fill an image object's drawing rectangle given the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   279 0x7f32741f4420->0x7f32741f17e0 'Get the state of the source object visibility.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   280 0x7f32741f4350->0x7f32741f64b0 'Set the source object to be visible or not.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   281 0x7f32741f4270->0x7f32741f1370 'Retrieves the size of the given image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   282 0x7f32741f41a0->0x7f32741f76b0 'Sets the size of the given image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   283 0x7f32741f40e0->0x7f32741f12f0 'Retrieves @b how the center part of the given image object (not the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   284 0x7f32741f4020->0x7f32741f89c0 'Sets @b how the center part of the given image object (not the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   285 0x7f32741f3f50->0x7f32741f1270 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   286 0x7f32741f3e80->0x7f32741fa5f0 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   287 0x7f32741f3da0->0x7f32741f1250 'Retrieve the source file from where an image object is to fetch the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   288 0x7f32741f3cc0->0x7f32741fa6b0 'Set the source file from where an image object must fetch the real'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   289 0x7f32741f3c00->0x7f32741f1360 'Retrieves the spread (tiling mode) for the given image object's'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   290 0x7f32741f3b40->0x7f32741f8a30 'Sets the tiling mode for the given evas image object's fill.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   291 0x7f32741f3a80->0x7f32741f1460 'Get if the orientation information in the image file should be honored.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   292 0x7f32741f39b0->0x7f32741f1aa0 'Define if the orientation information in the image file should be honored.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   293 0x7f32741f38f0->0x7f32741f14a0 'Get the video surface capabilities to a given image of the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   294 0x7f32741f3830->0x7f32741f8f20 'Set the video surface capabilities to a given image of the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   295 0x7f32741f3760->0x7f32741f1480 'Get the video surface linekd to a given image of the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   296 0x7f32741f3690->0x7f32741f7c10 'Set the video surface linked to a given image of the canvas'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   297 0x7f32741f35d0->0x7f32741f13d0 'Retrieves whether the given image object is dirty (needs to be redrawn).'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   298 0x7f32741f3500->0x7f32741f1820 'Mark whether the given image object is dirty and needs to request its pixels.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   299 0x7f32741f3430->0x7f32741f1310 'Retrieves the scaling factor (multiplier) for the borders of an'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   300 0x7f32741f3350->0x7f32741f8aa0 'Sets the scaling factor (multiplier) for the borders of an image'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   301 0x7f32741f3290->0x7f32741f13c0 'Retrieves whether the given image object is using high-quality'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   302 0x7f32741f31c0->0x7f32741f8b20 'Sets whether to use high-quality image scaling algorithm on the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   303 0x7f32741f30c0->0x7f32741f12b0 'Retrieve the dimensions for an image object's border, a region'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   304 0x7f32741f2fc0->0x7f32741f1b10 'Set the dimensions for an image object's border, a region which @b'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   305 0x7f32741f2ee0->0x7f32741f13f0 'Get the size of a given image object's source image, when loading'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   306 0x7f32741f2e10->0x7f32741fcf30 'Set the size of a given image object's source image, when loading'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   307 0x7f32741f2d50->0x7f32741f13b0 'Retrieve whether alpha channel data is being used on the given'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   308 0x7f32741f2c80->0x7f3274203a20 'Enable or disable alpha channel usage on the given image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   309 0x7f32741f2b80->0x7f32741f1420 'Retrieve the coordinates of a given image object's selective'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   310 0x7f32741f2a80->0x7f32741fd010 'Inform a given image object to load a selective region of its'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   311 0x7f32741f29c0->0x7f32741f14d0 'Get the content hint setting of a given image object of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   312 0x7f32741f2900->0x7f32741f1c00 'Set the content hint setting of a given image object of the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   313 0x7f32741f2840->0x7f32741f1300 'Retrieve whether the image object's fill property should track the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   314 0x7f32741f2770->0x7f3274201910 'Set whether the image object's fill property should track the'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   315 0x7f32741f26a0->0x7f32741f1280 'Get the current source object of an image object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   316 0x7f32741f25d0->0x7f32742012c0 'Set the source object on an image object to used as a @b proxy.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   317 0x7f32741f2510->0x7f32741f1290 'Determine whether an object is clipped by source object's clipper.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   318 0x7f32741f2440->0x7f32741f1870 'Clip the proxy object with the source object's clipper.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   319 0x7f32741f2370->0x7f32741f13e0 'Get the DPI resolution of a loaded image object in the canvas.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   320 0x7f32741f2290->0x7f32741fd140 'Set the DPI resolution of an image object's source image.'
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Evas_Image'
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x800000018000000d - Eo_Base.
+INF<24855>:eina_cow lib/eina/eina_cow.c:350 eina_cow_add() Creating Cow 'Evas Object Proxy' with mempool of type 'chained_mempool'
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas Object Proxy, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas Object Proxy, options=, mp=0x1711eb0
+INF<24855>:eina_cow lib/eina/eina_cow.c:350 eina_cow_add() Creating Cow 'Evas Object Map' with mempool of type 'chained_mempool'
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas Object Map, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas Object Map, options=, mp=0x1712030
+INF<24855>:eina_cow lib/eina/eina_cow.c:350 eina_cow_add() Creating Cow 'Evas Object State' with mempool of type 'chained_mempool'
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas Object State, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas Object State, options=, mp=0x17121b0
+INF<24855>:eina_cow lib/eina/eina_cow.c:350 eina_cow_add() Creating Cow 'Evas Object 3D' with mempool of type 'chained_mempool'
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas Object 3D, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas Object 3D, options=, mp=0x1712300
+INF<24855>:eina_cow lib/eina/eina_cow.c:350 eina_cow_add() Creating Cow 'Evas_Object_Image load opts' with mempool of type 'chained_mempool'
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Object_Image load opts, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Object_Image load opts, options=, mp=0x17124f0
+INF<24855>:eina_cow lib/eina/eina_cow.c:350 eina_cow_add() Creating Cow 'Evas_Object_Image pixels' with mempool of type 'chained_mempool'
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Object_Image pixels, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Object_Image pixels, options=, mp=0x17126a0
+INF<24855>:eina_cow lib/eina/eina_cow.c:350 eina_cow_add() Creating Cow 'Evas_Object_Image states' with mempool of type 'chained_mempool'
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:259 eina_mempool_add() name=chained_mempool, context=Evas_Object_Image states, options=
+DBG<24855>:eina_mempool lib/eina/eina_mempool.c:266 eina_mempool_add() name=chained_mempool, context=Evas_Object_Image states, options=, mp=0x1712850
+DBG<24855>:evas_main lib/evas/common/evas_image_load.c:317 evas_common_load_rgba_image_module_from_file() known loader 'jpeg' handles extension '.jpeg' of file '/home/luciana/Public/Enlightenment/cute_cat.jpeg'
+DBG<24855>:evas_main lib/evas/common/evas_image_load.c:327 evas_common_load_rgba_image_module_from_file() found image loader 'jpeg' (0x16d8740)
+DBG<24855>:evas_main lib/evas/common/evas_image_load.c:222 _evas_image_file_header() loaded file head using module 'jpeg' (0x16d8740): /home/luciana/Public/Enlightenment/cute_cat.jpeg
+DBG<24855>:evas_main lib/evas/common/evas_image_load.c:382 evas_common_load_rgba_image_module_from_file() loader 'jpeg' used for file /home/luciana/Public/Enlightenment/cute_cat.jpeg
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x8000000040000003 - Eo_Base.
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x8000000060000004 - Eo_Base.
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x8000000080000005 - Eo_Base.
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x80000000a0000006 - Eo_Base.
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x80000000c0000007 - Eo_Base.
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x80000000e0000008 - Eo_Base.
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x8000000100000009 - Eo_Base.
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x800000012000000a - Eo_Base.
+005<24855>:ecore_evas modules/ecore_evas/engines/x/ecore_evas_x.c:765 _ecore_evas_x_render() ee=0x1705c10 started asynchronous render.
+DBG<24855>:ecore_evas lib/ecore_evas/ecore_evas.c:173 _ecore_evas_idle_enter() +++ async render 8827.648491 ee=0x1705c10 [software_x11] (10, 10, 1600, 1000) visible=0 shaped=0 alpha=0 transparent=0
+DBG<24855>:evas_main lib/evas/common/evas_thread_render.c:101 evas_thread_worker_func() Evas render thread command queue length: 1
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:761 eldbus_idler() Connection@0x16a9050: Dispatch status: 0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:771 eldbus_idler() Connection@0x16a9050: Dispatching
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1113 eldbus_connection_ref() conn=0x16a9050, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:918 eldbus_filter() Connection@0x16a9050 Got message:
+  Type: signal
+  Path: /org/freedesktop/DBus
+  Interface: org.freedesktop.DBus
+  Member: NameAcquired
+  Sender: org.freedesktop.DBus
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:930 eldbus_filter()   Signature: s
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1113 eldbus_connection_ref() conn=0x16a9050, pre-refcount=2
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:155 eldbus_message_unref() msg=0x17183d0, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:159 eldbus_message_unref() message free 0x17183d0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1245 eldbus_connection_unref() conn=0x16a9050, pre-refcount=3
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1245 eldbus_connection_unref() conn=0x16a9050, pre-refcount=2
+DBG<24855>:evas_main lib/evas/canvas/evas_async_events.c:198 _evas_async_events_process_single() Evas async events queue length: 1
+005<24855>:ecore_evas modules/ecore_evas/engines/x/ecore_evas_x.c:694 _ecore_evas_x_render_updates() ee=0x1705c10 finished asynchronous render.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:761 eldbus_idler() Connection@0x16a9050: Dispatch status: 0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:771 eldbus_idler() Connection@0x16a9050: Dispatching
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1113 eldbus_connection_ref() conn=0x16a9050, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_pending.c:189 eldbus_pending_dispatch() pending=0x16b4ee0 msg=0x17181f0
+DBG<24855>:ecore_system_upower modules/ecore/system/upower/ecore_system_upower.c:180 _upower_name_owner_cb() org.freedesktop.UPower name owner changed from '' to ':1.18'
+DBG<24855>:eldbus lib/eldbus/eldbus_pending.c:116 _eldbus_connection_send() conn=0x16a9050, msg=0x170e710, cb=0x7f32702e5280, cb_data=(nil), timeout=-1.000000
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:707 cb_timeout_add() Adding timeout for connection@0x16a9050
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x80000001a000000e - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:789 cb_dispatch_status() Connection@0x16a9050: Dispatch status: 1
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:800 cb_dispatch_status() Connection@0x16a9050: No remaining dispatch data, clearing idler@0x8000000020000002
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:155 eldbus_message_unref() msg=0x17181f0, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:159 eldbus_message_unref() message free 0x17181f0
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:155 eldbus_message_unref() msg=0x16b4720, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:159 eldbus_message_unref() message free 0x16b4720
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1245 eldbus_connection_unref() conn=0x16a9050, pre-refcount=2
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x8000000020000002 - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:568 eldbus_fd_handler() Got Ecore_Fd_Handle@0x16ae510
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:577 eldbus_fd_handler() dbus connection@0x16a9050 fdh=7 flags: [read ]
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:725 cb_timeout_del() timeout del!
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:676 eldbus_timeout_data_free() Timeout -- freeing timeout_data 0x1715ad0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:789 cb_dispatch_status() Connection@0x16a9050: Dispatch status: 0
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x80000001c000000f - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:795 cb_dispatch_status() Connection@0x16a9050: Adding idler@0x80000001c000000f to handle remaining dispatch data
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x80000001a000000e - Eo_Base.
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:761 eldbus_idler() Connection@0x16a9050: Dispatch status: 0
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:771 eldbus_idler() Connection@0x16a9050: Dispatching
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1113 eldbus_connection_ref() conn=0x16a9050, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_pending.c:189 eldbus_pending_dispatch() pending=0x17159e0 msg=0x16bd8a0
+DBG<24855>:ecore_system_upower modules/ecore/system/upower/ecore_system_upower.c:60 _on_low_battery_from_variant() OnLowBattery=0
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:155 eldbus_message_unref() msg=0x16bd8a0, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:159 eldbus_message_unref() message free 0x16bd8a0
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:155 eldbus_message_unref() msg=0x170e710, pre-refcount=1
+DBG<24855>:eldbus lib/eldbus/eldbus_message.c:159 eldbus_message_unref() message free 0x170e710
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:789 cb_dispatch_status() Connection@0x16a9050: Dispatch status: 1
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:800 cb_dispatch_status() Connection@0x16a9050: No remaining dispatch data, clearing idler@0x80000001c000000f
+DBG<24855>:eldbus lib/eldbus/eldbus_core.c:1245 eldbus_connection_unref() conn=0x16a9050, pre-refcount=2
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x80000001c000000f - Eo_Base.
+DBG<24855>:eo lib/eo/eo.c:1242 eo_class_new() Started building extensions list for class 'Ecore_Animator'
+DBG<24855>:eo lib/eo/eo.c:1272 eo_class_new() Finished building extensions list for class 'Ecore_Animator'
+DBG<24855>:eo lib/eo/eo.c:1277 eo_class_new() Started building MRO list for class 'Ecore_Animator'
+DBG<24855>:eo lib/eo/eo.c:1288 eo_class_new() Finished building MRO list for class 'Ecore_Animator'
+DBG<24855>:eo lib/eo/eo.c:1296 eo_class_new() Started building Mixins list for class 'Ecore_Animator'
+DBG<24855>:eo lib/eo/eo.c:1310 eo_class_new() Finished building Mixins list for class 'Ecore_Animator'
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Ecore_Animator' to MRO
+DBG<24855>:eo lib/eo/eo.c:1357 eo_class_new() Added 'Eo_Base' to MRO
+DBG<24855>:eo lib/eo/eo.c:819 _eo_class_funcs_set() Set functions for class 'Ecore_Animator':0x16be0b0
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()     1 0x7f32748258d0->0x7f3273f6baf0 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    15 0x7f3274824ce0->0x7f3273f6cd50 'Call the object's destructor.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    19 0x7f32748249d0->0x7f3273f6bbc0 'freeze events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()    20 0x7f3274824920->0x7f3273f6bef0 'thaw events of object.'
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   325 0x7f3273f6ba10->0x7f3273f6cc10 ''
+DBG<24855>:eo lib/eo/eo.c:865 _eo_class_funcs_set()   326 0x7f3273f6b910->0x7f3273f6cc30 ''
+DBG<24855>:eo lib/eo/eo.c:1457 eo_class_new() Finished building class 'Ecore_Animator'
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x80000001e0000010 - Eo_Base.
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:125 _tick_send() _tick_send(1)
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:214 _drm_tick_core() tick = 1
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:112 _drm_tick_schedule() sched...
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:170 _drm_vblank_handler() vblank 528627
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:154 _drm_send_time()    ... send 8827.65843300
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:112 _drm_tick_schedule() sched...
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:170 _drm_vblank_handler() vblank 528627
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:189 _drm_tick_core() ------- drm_event_is_busy=1
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:204 _drm_tick_core() DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:260 _drm_tick_notify() notify.... 8827.658 1
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:266 _drm_tick_notify() VSYNC 8827.65843300 = delt 8827.65843300
+
+poll...
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:214 _drm_tick_core() tick = 1
+
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x80000001e0000010 - Eo_Base.
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:112 _drm_tick_schedule() sched...
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:125 _tick_send() _tick_send(0)
+
+DBG<24855>:ecore_evas lib/ecore_evas/ecore_evas.c:159 _ecore_evas_idle_enter() --- async render 8827.658433 ee=0x1705c10 [software_x11] (886, 35, 1600, 1000) visible=1 shaped=0 alpha=0 transparent=0
+005<24855>:ecore_evas modules/ecore_evas/engines/x/ecore_evas_x.c:765 _ecore_evas_x_render() ee=0x1705c10 started asynchronous render.
+DBG<24855>:ecore_evas lib/ecore_evas/ecore_evas.c:173 _ecore_evas_idle_enter() +++ async render 8827.658433 ee=0x1705c10 [software_x11] (886, 35, 1600, 1000) visible=1 shaped=0 alpha=0 transparent=0
+DBG<24855>:evas_main lib/evas/common/evas_thread_render.c:101 evas_thread_worker_func() Evas render thread command queue length: 1
+DBG<24855>:evas_main lib/evas/canvas/evas_async_events.c:198 _evas_async_events_process_single() Evas async events queue length: 1
+005<24855>:ecore_evas modules/ecore_evas/engines/x/ecore_evas_x.c:694 _ecore_evas_x_render_updates() ee=0x1705c10 finished asynchronous render.
+DBG<24855>:eo lib/eo/eo_base_class.c:911 _eo_base_constructor() 0x8000000200000011 - Eo_Base.
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:189 _drm_tick_core() ------- drm_event_is_busy=0
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:192 _drm_tick_core() wait...
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:214 _drm_tick_core() tick = 0
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:189 _drm_tick_core() ------- drm_event_is_busy=0
+
+DBG<24855>:ecore_x lib/ecore_x/xlib/ecore_x_vsync.c:192 _drm_tick_core() wait...
+
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x8000000200000011 - Eo_Base.
+DBG<24855>:ecore lib/ecore/ecore_main.c:411 _ecore_main_fdh_poll_del() removing poll on 10
+DBG<24855>:ecore lib/ecore/ecore_main.c:411 _ecore_main_fdh_poll_del() removing poll on 8
+DBG<24855>:eo lib/eo/eo_base_class.c:921 _eo_base_destructor() 0x800000018000000d - Eo_Base.

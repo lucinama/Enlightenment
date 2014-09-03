@@ -1,0 +1,57 @@
+images {}
+
+collections {
+
+	    group {
+	      name, "teste";
+	      min, 50 50;
+	      max, 300 300;
+	      parts {
+	      	    part {
+		    	 name, "background";
+			 type, RECT;
+			 mouse_events, 1;
+			 
+			 description {
+			 	     state, "default" 0.0;
+				     color, 30 144 255 255;
+				     
+				     rel1 {
+				     	  relative, 0.0 0.0;
+					  offset, 0 0;
+				     }
+				     rel2 {
+				     	  relative, 1.0 1.0;
+					  offset, 0 0;
+		     			}
+				  }
+				 
+			 description {
+			 	     state, "pink" 0.0;
+				     inherit, "default" 0.0;
+				     color, 255 20 147 255;
+				     }
+			}			
+		 
+			programs {
+	     	      		program {
+		      	      	 	name,		"muda_cor_1";
+					signal, 	"mouse,in";
+			      	 	source,		"background";
+			      	 	action,		STATE_SET "pink" 0.0;
+			      	 	transition, 	SINUSOIDAL 1.0;
+			      	 	target,     	"background";
+					}
+				program {
+					name,		"retorna_default";
+					signal,		"mouse,out";
+					source, 	"background";
+					action, 	STATE_SET "default" 0.0;
+			      	 	transition, 	SINUSOIDAL 1.0;
+					target, 	"background";
+					}
+			}
+ 
+		}					  
+	}
+}

@@ -1,0 +1,6 @@
+00010.Luciana Almeida.Aluno.A
+00010.Luciana Almeida.Aluno.A
+00090.Savio Sena.Professor.InformaticaA
+00030.João Gabriel.Aluno.B
+00040.Carlos Carvalho.Professor.InformaticaB
+00010.Luciana Almeida.Aluno.A

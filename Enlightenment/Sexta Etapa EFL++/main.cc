@@ -20,6 +20,8 @@ using namespace std;
     string espec;
   };
 
+
+
 bool cmp(const individual &a, const individual &b)
 {
   return a.matr < b.matr;

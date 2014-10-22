@@ -23,12 +23,15 @@ extern "C"
 #include <elm_widget.h>
 
 #include "elm_interface_atspi_accessible.h"
+#include "elm_interface_atspi_text.h"
 #include "elm_interface_atspi_widget_action.h"
+#include "elm_interface_scrollable.h"
 }
 
-#include <elm_win.eo.hh>
-#include <elm_check.eo.hh>
+//#include <elm_win.eo.hh>
+//#include <elm_check.eo.hh>
 
+#include <Elementary.hh>
 #include <Eina.hh>
 #include <Evas.hh>
 
@@ -36,7 +39,7 @@ extern "C"
 #include "canvas/evas_rectangle.eo.hh"
 
 void
-_print(void *data, ::elm_check obj, Eo_Event_Description const& desc, void* info)
+_print(::elm_check obj, Eo_Event_Description const& desc, void* data)
 {
   //  printf("check %smarked\n", *((Eina_Bool*)data) ? "" : "un");
   assert(!!data);
@@ -52,8 +55,7 @@ namespace efl { namespace evas {
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
-  
-  Eina_Bool value;
+  bool value;
   
   elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
  
@@ -61,9 +63,8 @@ elm_main (int argc, char *argv[])
   win.autodel_set(true);
 
   ::elm_check cb(efl::eo::parent = win);
-  cb.text_set("elm.text", "checkbox");
+  elm_object_text_set(cb._eo_ptr(), "checkbox"); // XXX
   cb.state_pointer_set(&value);
-  // evas_object_smart_callback_add(cb, "changed", _print, &value);
   cb.callback_changed_add(&_print);
   cb.position_set(10, 10);
   cb.size_set(200, 30);
@@ -75,9 +76,9 @@ elm_main (int argc, char *argv[])
   icon.visibility_set(true);
 
   ::elm_check cb2(efl::eo::parent = win);
-  cb2.text_set("elm.text", "another checkbox");
+  elm_object_text_set(cb2._eo_ptr(), "another checkbox"); // XXX
   cb2.state_set(true);
-  cb2.content_set("icon", icon);   //XXXX
+  cb2.content_set("icon", icon);   // XXX
   cb2.position_set(10, 50);
   cb2.size_set(200, 30);
   cb2.visibility_set(true);
@@ -89,6 +90,5 @@ elm_main (int argc, char *argv[])
   elm_shutdown();
  
   return 0;
-  
 }
 ELM_MAIN()

@@ -20,32 +20,37 @@
 
 #include "elm_interface_atspi_accessible.h"
 #include "elm_interface_atspi_widget_action.h"
+#include "elm_interface_scrollable.h"
 
 #include <elm_win.eo.hh>
 #include <elm_list.eo.hh>
 
-void
-item_select_cb(void *data, Evas_Object *obj, void *event_info)
-{
-   Evas_Coord x, y, w, h;
-   Eina_Bool visible;
-   Elm_Object_Item *it = event_info;
-   Evas_Object *track = elm_object_item_track(it);
-   evas_object_geometry_get(track, &x, &y, &w, &h);
+#include <Eina.hh>
 
-   visible = evas_object_visible_get(track);
-   printf("track geometry = (%d %d %d %d) visible(%d)\n",
-          x, y, w, h, visible);
+#include <array>
+#include <string>
 
-   elm_object_item_untrack(it);
-}
+// void
+// item_select_cb(::elm_list obj, Eo_Event_Description const& desc EINA_UNUSED, void* info)
+// {
+//    Evas_Coord x, y, w, h;
+//    bool visible;
+//    Elm_Object_Item *it = info;
+//    Evas_Object *track = elm_object_item_track(it);
+//    track.geometry_get(&x, &y, &w, &h);
+
+//    visible = evas_object_visible_get(track);
+//    printf("track geometry = (%d %d %d %d) visible(%d)\n",
+//           x, y, w, h, visible);
+
+//    elm_object_item_untrack(it);
+// }
 
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
 
-  unsigned int i;
-  static const char *lbl[] =
+  std::array<std::string, 7> labels =
     {
       "Sunday",
       "Monday",
@@ -65,8 +70,10 @@ elm_main (int argc, char *argv[])
   li.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
   win.resize_object_add(li);
 
-  for (i = 0; i < sizeof(lbl) / sizeof(lbl[0]); i++)
-    li.item_append(lbl[i], NULL, NULL, item_select_cb, NULL);
+  for (std::string s : labels)
+    li.item_append(&item_selected);
+  // for (i = 0; i < sizeof(lbl) / sizeof(lbl[0]); i++)
+  //   li.item_append(lbl[i], NULL, NULL, item_select_cb, NULL);
 
   li.visibility_set(true);
   li.go();

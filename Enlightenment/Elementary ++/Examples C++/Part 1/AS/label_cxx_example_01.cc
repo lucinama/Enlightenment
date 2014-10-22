@@ -28,25 +28,17 @@ extern "C"
 #include <elm_label.eo.hh>
 
 #include <Eina.hh>
-// #include <Evas.hh>
-
-// #include "canvas/evas_canvas.eo.hh"
-// #include "canvas/evas_rectangle.eo.hh"
-
 
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
-  ::evas_init();
-
   elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
  
   ::elm_win win(elm_win_util_standard_add("label", "Label"));
   win.autodel_set(true);
  
   ::elm_label label(efl::eo::parent = win);
-  //  label.text_set("elm.label", "Some long text for our label, that is long but ""not too long.");
-  elm_object_text_set(label._eo_ptr(), "Some long text for our label, that is long but ""not too long.");
+  elm_object_text_set(label._eo_ptr(), "Some long text for our label, that is long but ""not too long.");  // XXX
   label.slide_duration_set(3);
   label.slide_mode_set(ELM_LABEL_SLIDE_MODE_ALWAYS);
   label.style_set("slide_bounce");
@@ -56,21 +48,16 @@ elm_main (int argc, char *argv[])
  
 
   ::elm_label label2(efl::eo::parent = win);
-  //label2.text_set("elm.label", "This is the text for our second label, which is"
-  //		  " much longer than the previous one, maybe even "
-  //		  "too long, but maybe not.");
   elm_object_text_set(label2._eo_ptr(),"This is the text for our second label, which is"
-		  " much longer than the previous one, maybe even "
-		  "too long, but maybe not.");
+		      " much longer than the previous one, maybe even "
+		      "too long, but maybe not.");    // XXX
   label2.ellipsis_set(true);
   label2.evas::object::size_set(200, 15);
   label2.position_set(0, 30);
   label2.visibility_set(true);
   
   ::elm_label label3(efl::eo::parent = win);
-  //label3.text_set("elm.label", "Some more long text much as before, long but "
-  //		  "not too long.");
-  elm_object_text_set(label3._eo_ptr(), "Some more long text much as before, long but ""not too long.");
+  elm_object_text_set(label3._eo_ptr(), "Some more long text much as before, long but ""not too long."); // XXX
   label3.line_wrap_set(ELM_WRAP_CHAR);
   label3.ellipsis_set(true);
   label3.evas::object::size_set(200, 15);
@@ -78,10 +65,8 @@ elm_main (int argc, char *argv[])
   label3.visibility_set(true);
 
   ::elm_label label4(efl::eo::parent = win);
-  // label4.text_set("elm.label" , "And for this label we choose a different text, "
-  //		  "for no reason other than that we can.");
   elm_object_text_set(label4._eo_ptr(), "And for this label we choose a different text, "
-		  "for no reason other than that we can.");
+		      "for no reason other than that we can.");  // XXX
   label4.line_wrap_set(ELM_WRAP_CHAR);
   label4.evas::object::size_set(200, 30);
   label4.position_set (0, 80);
@@ -89,18 +74,15 @@ elm_main (int argc, char *argv[])
  
 
   ::elm_label label5(efl::eo::parent = win);
-  //label5.text_set("elm.label", "And for this label we choose a different text, "
-  //		  "for no reason other than that we can.");
   elm_object_text_set(label5._eo_ptr(),"And for this label we choose a different text, "
-		  "for no reason other than that we can.");
+		      "for no reason other than that we can.");  // XXX
   label5.line_wrap_set(ELM_WRAP_WORD);
   label5.evas::object::size_set(200, 40);
   label5.position_set (0, 110);
   label5.visibility_set(true);
 
   ::elm_label label6(efl::eo::parent = win);
-  //label6.text_set("elm.label","Short text");
-  elm_object_text_set(label6._eo_ptr(),"Short text");
+  elm_object_text_set(label6._eo_ptr(),"Short text");   // XXX
   label6.style_set("marker");
   label6.color_set(255, 0, 0, 255);
   label6.evas::object::size_set(200, 15);

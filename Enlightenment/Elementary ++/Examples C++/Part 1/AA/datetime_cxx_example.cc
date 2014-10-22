@@ -19,9 +19,7 @@
 #include <elm_widget.h>
 
 #include "elm_interface_atspi_accessible.h"
-#include "elm_interface_atspi_accessible.eo.h"
 #include "elm_interface_atspi_widget_action.h"
-#include "elm_interface_atspi_widget_action.eo.h"
 
 #include <elm_win.eo.hh>
 #include <elm_box.eo.hh>
@@ -32,7 +30,6 @@
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
-  
   elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
 
   ::elm_win win(elm_win_util_standard_add("Datetime", "Datetime"));
@@ -41,7 +38,7 @@ elm_main (int argc, char *argv[])
   ::elm_box bx(efl::eo::parent = win);
   bx.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
   win.resize_object_add(bx);
-  bx.horizontal_set(true);
+  bx.horizontal_set(false);
   bx.visibility_set(true);
 
   ::elm_datetime datetime(efl::eo::parent = bx);
@@ -74,6 +71,5 @@ elm_main (int argc, char *argv[])
   elm_shutdown();
   
   return 0;
-  
 }
 ELM_MAIN()

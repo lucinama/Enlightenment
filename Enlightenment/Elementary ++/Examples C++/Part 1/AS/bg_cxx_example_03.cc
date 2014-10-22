@@ -28,7 +28,7 @@ extern "C"
 
 #include <elm_win.eo.hh>
 #include <elm_radio.eo.hh>
-#include "elm_check.eo.hh"
+#include <elm_check.eo.hh>
 #include <elm_box.eo.hh>
 #include <elm_bg.eo.hh>
 #include <elm_spinner.eo.hh>
@@ -36,7 +36,7 @@ extern "C"
 #include <Eina.hh>
 
 void
-_cb_radio_changed(void* data, ::elm_bg o_bg, Eo_Event_Description const& desc EINA_UNUSED, void* info EINA_UNUSED)
+_cb_radio_changed(::elm_bg o_bg, Eo_Event_Description const& desc EINA_UNUSED, void* info EINA_UNUSED)
 {  
   ::elm_win win(elm_win_util_standard_add("bg-options", "Bg Options"));
   win.autodel_set(true);
@@ -52,7 +52,6 @@ _cb_overlay_changed(::elm_bg o_bg, Eo_Event_Description const& desc EINA_UNUSED,
   if (obj.state_get())
      {
         Evas_Object *parent, *over;
-        char buff[PATH_MAX];
 
 	//snprintf(buff, sizeof(buff), "%s/objects/test.edj", elm_app_data_dir_get());
 	std::stringstream ss1;

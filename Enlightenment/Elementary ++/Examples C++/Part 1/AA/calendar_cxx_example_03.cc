@@ -19,15 +19,12 @@
 #include <elm_widget.h>
 
 #include "elm_interface_atspi_accessible.h"
-#include "elm_interface_atspi_accessible.eo.h"
 #include "elm_interface_atspi_widget_action.h"
-#include "elm_interface_atspi_widget_action.eo.h"
 
 #include <elm_win.eo.hh>
 #include <elm_calendar.eo.hh>
 
 #include <Eina.hh>
-
 
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
@@ -57,4 +54,4 @@ elm_main (int argc, char *argv[])
   
   return 0;
 }
-ELM_MAIN();
+ELM_MAIN()

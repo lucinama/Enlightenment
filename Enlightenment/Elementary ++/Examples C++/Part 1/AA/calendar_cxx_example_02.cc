@@ -55,7 +55,6 @@ elm_main (int argc, char *argv[])
   cal.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
   win.resize_object_add(cal);
 
-
   cal.format_function_set(_format_month_year);
   cal.weekdays_names_set(weekdays);
 
@@ -68,4 +67,4 @@ elm_main (int argc, char *argv[])
   
   return 0;
 }
-ELM_MAIN();
+ELM_MAIN()

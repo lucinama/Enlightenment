@@ -22,7 +22,6 @@ extern "C"
 
 #include "elm_interface_atspi_accessible.h"
 #include "elm_interface_atspi_widget_action.h"
-#include "elm_interface_clickable.eo.h"
 }
 
 #include <elm_win.eo.hh>
@@ -44,7 +43,6 @@ _btn_clear_cb(::elm_calendar obj, Eo_Event_Description const& desc, void* info)
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
-
   struct tm selected_time;
   time_t current_time;
   struct tm sunday = { 0, 0, 12, 7, 0, 0, 0, 0, -1, 0, };
@@ -82,7 +80,7 @@ elm_main (int argc, char *argv[])
  
   cal.mark_add("holiday", &sunday, ELM_CALENDAR_WEEKLY);
  
-  // mark.mark_del();
+  mark.mark_clear();
 
   cal.marks_draw();
 

@@ -1,0 +1,115 @@
+File:					Part 1					Part 2				Part 3
+
+actionslider_example_01.c											AS (Erro ao compilar, ver as Callbacks do actionslider. Aguardando text_set)	
+bg_example_01.c				.AA
+bg_example_02.c				.AA 
+bg_example_03.c				:AS (Image aberta pelo app, resolvido com cast, mas aguardar pra dar commit, erros nas callbacks)
+bubble_example_01.c			.AS (Consertou erro Label, mas ainda não no padrão C++, aguardar)
+button_example_00.c			:AS (Ver Erro na compilação da callback)
+button_example_01.c			:AS (Callbacks mais complexas)
+calendar_example_01.c			.AA
+calendar_example_02.c			.AA
+calendar_example_03.c			.AA
+calendar_example_04.c			.AA
+calendar_example_05.c			.AA (Consertado no C++ qdo Eina_Bool usar bool)
+calendar_example_06.c			:AS (Ver Erro na compilação da callback)
+check_example_01.c			:AS (Ver Erro na compilação da callback)
+clock_example.c				.AA
+codegen_cxx_example.cc													:AS (layout não tem funcao swallow_grow_emit e swallow_shrink_emit . A table_clear falta um argumento. Ver a callback com edje. Callback com Evas_Object *parent. Dar uma olhada com calma no resto. Aguardando text_set)	
+colorselector_example_01.c							:AS (Aguardando solução content_set e text_set (._eo_ptr()) terminar as callbacks)
+conformant_example_01.c							   	.AS (Aguardando text_set (._eo_ptr()))
+conformant_example_02.c							   	.AS (Ver pq so aparece um btn. content_set e text_set (._eo_ptr()))
+ctxpopup_example_01.c							   	:AS (Aguardando item_append e terminar as callbacks, consertado #include <iostream> p/ std::cout)
+datetime_example.c			.AA
+dayselector_example.c			:AS (Não conseguiu fazer o cast do info pro day e o selected está certo)				
+diskselector_example_01.c		:AS (Exemplo rodando aguardando item_append teve que usar o evas::object() vazio o q comprometeu o código do exemplo. Interface resolvido, for (i = 0; i < sizeof(lbl) / sizeof(lbl[0]); i++) agora no estilo C++, item_append teve que usar o evas::object() vazio o q comprometeu o código do exemplo)
+diskselector_example_02.c		:AS (Mta coisa, terminar depois que resolver o de cima)
+efl_thread_1.c				:AS
+efl_thread_2.c				:AS
+efl_thread_3.c														:AS (Ver se tem algum .hh pra add. Ver as callbacks. Ver se win.callback_delete_request_add(del) e win.autodel_set(true) são compativeis)
+efl_thread_4.c														:AS (Ver se tem algum .hh pra add. Ver as callbacks. win.callback_delete_request_add(del) e win.autodel_set(true) são compativeis)
+efl_thread_5.c														:AS (Ver se tem algum .hh pra add. Ver as callbacks. Ver callback do rect. win.callback_delete_request_add(del) e win.autodel_set(true) são compativeis. Ver o resto)			
+efl_thread_6.c				
+entry_example.c				
+evas3d_map_example.c					
+evas3d_object_on_button_example.c	
+evas3d_scene_on_button_example.c	
+fileselector_button_example.c												:AS (Ver as callbacks, não conseguiu fazer o cast do info e do data. Ver as callbacks do check. Aguardando content_set e text_set)	
+fileselector_entry_example.c											   	:AS (Ver as callbacks, não conseguiu fazer o cast do info e do data. Ver as callbacks do check. Aguardando content_set e text_set)
+fileselector_example.c													:AS (Callbacks selected_add e callback_done_add não existe no elm_fileselector. Não conseguiu fazer o cast do info e do data e tem q ver as callbacks do check. Aguardando text_set)
+flip_example_01.c								:AS (Terminar a callback e Aguardando solução content_set e text_set)
+flipselector_example.c												     	:AS (Ver as callbacks, não conseguiu fazer o cast do info e do data. Ver as callbacks do win. Aguardando text_set e fprintf)
+frame_example_01.c								.AS (Aguardando solução content_set e text_set)	
+general_funcs_example.c			
+gengrid_example.c			
+genlist_example_01.c			:AS (callbacks complexas, ver erro na compilação)	
+genlist_example_02.c			
+genlist_example_03.c			
+genlist_example_04.c			
+genlist_example_05.c			
+glview_example_01.c			
+hover_example_01.c								:AS (Callbacks data.visibility_set(true); //evas_object_show(data);  e text_set e content_set)
+hoversel_example_01.c			
+icon_example_01.c								.AA
+image_example_01.c			AS (Image aberta pelo app, resolvido com cast, mas aguardar pra dar commit, checar com a versao C)
+index_example_01.c			
+index_example_02.c			
+inwin_example.c				
+label_example_01.c			.AS (Consertou erro Label (_eo_ptr()), mas ainda não no padrão C++, aguardar pra dar commit)		
+layout_example_01.c								:AS (terminar callback, app e content_set. Aguardando text_set)
+layout_example_02.c								:AS (terminar callback, app e content_set)
+layout_example_03.c								:AS (terminar callback, app e content_set. Aguardando text_set)
+list_example_01.c								:AS (Erro item_append)
+list_example_02.c								:AS (Consertado bounce, original elm_scroller e Erro item_append)
+list_example_03.c			
+location_example_01.c								:AS (Terminar callbacks, defines e elocation. Aguardando text_set)
+map_example_01.c			:AS (callbacks cannot convert clickable interfaces to void*)
+map_example_02.c			
+map_example_03.c													:AS (Terminar as callbacks e o exemplo)
+mapbuf_example.c			
+menu_example_01.c			
+naviframe_example.c			
+notify_example_01.c								.AS (content_set e text_set)	
+panel_example_01.c								.AS (content_set e text_set)
+panes_example.c									.AS (Aguardando content_set e text_set)
+photocam_example_01.c								:AS (Callbacks datas, text_set e bounce_set)
+popup_example_01.c			:AS (callback_block_clicked_add não está funcionando. text_set e content_set)
+popup_example_02.c			
+popup_example_03.c			
+prefs_data_example.c			
+prefs_example_01.c						
+prefs_example_02.c						
+prefs_example_03.c					
+progressbar_example.c			
+radio_example_01.c								:AS (Compila mas não rode direito o val cout sempre 1 e o Radio 3 não aparece na janela. Aguardando text_set e content_set)
+scroller_example_01.c								:AS (Não existe region_show no elm_scroller. Aguardando text_set e content_set)		
+segment_control_example.c							:AS (Não reconhece as funções item_selected_get ..._set e não permite = para o elm_segment_control . Não funciona o text_set)
+separator_example_01.c								.AA
+slider_example.c								AS (terminar snprint e compilar. text_set e content_set)
+slideshow_example.c							
+spinner_example.c								.AA		
+table_example_01.c								.AS (Aguardando text_set)
+table_example_02.c								.AA
+theme_example_01.c								:AS (Erros compilação, Elm_Theme... e text_set)
+theme_example_02.c								:AS (Erros compilação, Elm_Theme... e text_set)
+thumb_example_01.c								:AS (Compilou mas rodou sem imagem)
+toolbar_example_01.c			:AS	(ver erros dos item_append da toolbar.eo.hh ver as callbacks)
+toolbar_example_02.c			:AS	(ver erros dos item_append (tb NULL) e das callbacks, tb funções q não são encontradas)
+toolbar_example_03.c			:AS	callback ?
+track_example_01.c			:AS	(Callback: Não fez Cast Elm_Object_Item p/ info, erro item_append)
+transit_example_01.c			:AS	Não deveria ter um elm_transit_eo.hh ?
+transit_example_02.c			
+transit_example_03.c			
+transit_example_04.c			
+web_example_01.c								AS (Compilar. checar o construct do win)
+web_example_02.c			
+win_example.c				
+
+
+Por enquanto 
+Part 1:        AA =  9		Part 2:		AA = 4		Part 3:		AA = 0
+    	       AS = 22		     		AS = 26				AS = 14
+	 Subtotal = 31			  Subtotal = 30					Subtotal= 14
+	    	    				Total = 75
+	    	    				
+	    	    				108 examples

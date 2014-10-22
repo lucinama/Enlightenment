@@ -34,7 +34,6 @@
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
-
   struct tm selected_time;
   time_t current_time;
   
@@ -71,4 +70,4 @@ elm_main (int argc, char *argv[])
   
   return 0;
 }
-ELM_MAIN();
+ELM_MAIN()

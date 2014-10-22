@@ -1,0 +1,25 @@
+evas-aspect-hints_cxx.cc		AS (Terminar as callbacks)
+evas-box_cxx.cc				AS (Mtos erros na compilação)
+evas-buffer-simple_cxx.cc		AS (Terminar as callbacks)
+evas-events_cxx.cc			AS (Terminar as callbacks) 
+evas-gl_cxx.cc
+evas-hints_cxx.cc			AS (Erro compilação. Cast Evas_EvenT_Key_Down *ev para info. event_callback com NULL)
+evas-images_cxx.cc			AS (Terminar as callbacks) 
+evas-images2_cxx.cc			AS (Terminar as callbacks) 
+evas-images3_cxx.cc			AS (Terminar as callbacks) 
+evas-init-shutdown_cxx.cc		AS (Erro na compilação EINA_LIST_FOREACH)
+evas-map-utils_cxx.cc			AS (Mtos erros na compilação)
+evas-multi-touch_cxx.cc			AS (Terminar callbakcs etc.)
+evas-object-manipulation-eo_cxx.cc	??
+evas-object-manipulation_cxx.cc		??
+evas-smart-interface_cxx.cc
+evas-smart-object_cxx.cc
+evas-stacking_cxx.cc			AS (Terminar as callbakcs e ver como terminar o resto)
+evas-table_cxx.cc			AS (Compila mas não roda)
+evas-text_cxx.cc			AS (Erros na compilação)
+evas-transparent_cxx.cc			AS (Cast Evas_EvenT_Key_Down *ev para info. event_callback com NULL)
+
+AA = 
+AS = 15
+Total = 18
+

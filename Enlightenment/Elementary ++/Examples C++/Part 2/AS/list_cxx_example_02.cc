@@ -31,51 +31,53 @@ extern "C"
 
 #include <Eina.hh>
 
+#include <array>
+#include <string>
+
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
-   	unsigned int i;
-   	static const char *lbl[7] =
+  std::array<std::string, 7> labels =
     {
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
     };
      
-	elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
+  elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
 
-	::elm_win win(elm_win_util_standard_add("list", "List Example"));
-	win.autodel_set(true);
+  ::elm_win win(elm_win_util_standard_add("list", "List Example"));
+  win.autodel_set(true);
    
-	::elm_list li(efl::eo::parent = win);
-   	li.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-   	win.resize_object_add(li);
+  ::elm_list li(efl::eo::parent = win);
+  li.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+  win.resize_object_add(li);
 
-   	for (i = 0; i < sizeof(lbl) / sizeof(lbl[0]); i++)
-     li.item_append(lbl[i], NULL, NULL, NULL, NULL);
+  for (std::string s : labels)
+    li.item_append(s, evas::object(), evas::object(), NULL, NULL); // XXX
 
-    li.horizontal_set(true);
-   	li.mode_set(ELM_LIST_COMPRESS);
+  li.horizontal_set(true);
+  li.mode_set(ELM_LIST_COMPRESS);
 
-    li.multi_select_set(true);
-   	li.select_mode_set(ELM_OBJECT_SELECT_MODE_ALWAYS);
+  li.multi_select_set(true);
+  li.select_mode_set(ELM_OBJECT_SELECT_MODE_ALWAYS);
 
-   	li.bounce_set(true, true);
-   	li.policy_set(ELM_SCROLLER_POLICY_AUTO, ELM_SCROLLER_POLICY_ON);
+  li.bounce_allow_set(true, true);
+  li.policy_set(ELM_SCROLLER_POLICY_AUTO, ELM_SCROLLER_POLICY_ON);
 
-   	li.go();
-   	li.visibility_set(true);
+  li.go();
+  li.visibility_set(true);
 
-   	win.evas::object::size(320, 120);
-   	win.visibility_set(true);
+  win.evas::object::size_set(320, 120);
+  win.visibility_set(true);
 
-   	elm_run();
-   	elm_shutdown();
+  elm_run();
+  elm_shutdown();
 
-   	return 0;
+  return 0;
 }
 ELM_MAIN()

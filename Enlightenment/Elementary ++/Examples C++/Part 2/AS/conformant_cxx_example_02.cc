@@ -22,13 +22,15 @@ extern "C"
 
 #include "elm_interface_atspi_accessible.h"
 #include "elm_interface_atspi_widget_action.h"
+#include "elm_interface_atspi_text.h"
+#include "elm_interface_scrollable.h"
 }
 
 #include <elm_win.eo.hh>
 #include <elm_button.eo.hh>
 #include <elm_box.eo.hh>
 #include <elm_entry.eo.hh>
-#include <elm_conform.eo.hh>
+#include <elm_conformant.eo.hh>
 
 #include <Eina.hh>
 
@@ -52,11 +54,11 @@ elm_main (int argc, char *argv[])
   	bx.size_hint_align_set(EVAS_HINT_FILL, EVAS_HINT_FILL);
  
    	::elm_button btn(efl::eo::parent = win);
-    elm_object_text_set(btn._eo_ptr(), "Test Conformant");  //XXXX
+	elm_object_text_set(btn._eo_ptr(), "Test Conformant");  // XXX
   	btn.size_hint_weight_set(EVAS_HINT_EXPAND, 0);
   	btn.size_hint_align_set(EVAS_HINT_FILL, 0);
    	bx.pack_end(btn);
-   	bx.visibility_set(true);
+   	btn.visibility_set(true);
   
     ::elm_entry en(efl::eo::parent = win);
    	en.scrollable_set(true);
@@ -69,7 +71,7 @@ elm_main (int argc, char *argv[])
                        "text entry that is inside of a scroller than can be "
                        "scrolled around, thus changing the expected position "
                        "as well as cursor changes updating auto-scroll when "
-                       "it is enabled.");       //XXXX
+                       "it is enabled.");       // XXX
 
    	en.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
    	en.size_hint_align_set(EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -77,13 +79,13 @@ elm_main (int argc, char *argv[])
 	bx.pack_end(en);
 
   	::elm_button btn2(efl::eo::parent = win);
-    elm_object_text_set(btn2._eo_ptr(), "Test Conformant");  //XXXX
+	elm_object_text_set(btn2._eo_ptr(), "Test Conformant");  // XXX
   	btn2.size_hint_weight_set(EVAS_HINT_EXPAND, 0);
   	btn2.size_hint_align_set(EVAS_HINT_FILL, 0);
    	bx.pack_end(btn2);
    	btn2.visibility_set(true);
      
-	//elm_object_content_set(conform, bx);
+	elm_object_content_set(conform._eo_ptr(), bx._eo_ptr()); // XXX
 	bx.visibility_set(true);
   
    	win.evas::object::size_set(240, 480);

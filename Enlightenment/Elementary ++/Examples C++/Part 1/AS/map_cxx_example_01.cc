@@ -36,7 +36,7 @@ void
 _bt_zoom_in(void* data, ::elm_map map, Eo_Event_Description const& desc EINA_UNUSED, void* info EINA_UNUSED)
 {
   int zoom;
-map.zoom_mode_set(ELM_MAP_ZOOM_MODE_MANUAL);
+  map.zoom_mode_set(ELM_MAP_ZOOM_MODE_MANUAL);
   zoom = map.zoom_get();
   map.zoom_set(zoom + 1);
 }
@@ -85,7 +85,7 @@ elm_main (int argc, char *argv[])
   bt.text_set("elm.text", "+");
   box.pack_end(bt);
   bt.visibility_set(true);
-bt.callback_clicked_add(&_bt_zoom_in);
+  bt.callback_clicked_add(&_bt_zoom_in);
 
   ::elm_button bt2(efl::eo::parent = win);
   bt2.text_set("elm.text", "-");
@@ -104,18 +104,17 @@ bt.callback_clicked_add(&_bt_zoom_in);
   bt4.text_set("elm.text", "#");
   box.pack_end(bt4);
   bt4.visibility_set(true);
-bt4.callback_clicked_add(&_bt_zoom_fill);
+  bt4.callback_clicked_add(&_bt_zoom_fill);
 
   map.zoom_set(12);
   map.region_show(-43.2, -22.9);
   
-win.evas::object::size_set(512, 512);
+  win.evas::object::size_set(512, 512);
   win.visibility_set(true);
 
   elm_run();
   elm_shutdown();
 
   return 0;
-  
 }
 ELM_MAIN()

@@ -50,7 +50,7 @@ elm_main(int argc, char **argv)
    evas_object_move(bubble, 0, 110);
    evas_object_show(bubble);
 
-   evas_object_resize(win, 300, 200);
+   win.evas::object::size_set(300, 200);
    evas_object_show(win);
 
    elm_run();

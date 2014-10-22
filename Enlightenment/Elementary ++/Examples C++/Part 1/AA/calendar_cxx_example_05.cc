@@ -54,8 +54,7 @@ _print_cal_info_cb(::elm_calendar obj, Eo_Event_Description const& desc, void* i
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
- 
-  elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
+   elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
    
   ::elm_win win(elm_win_util_standard_add("calendar", "Calendar Getters Example"));
   win.autodel_set(true);

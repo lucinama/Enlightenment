@@ -34,13 +34,12 @@ elm_main (int argc, char *argv[])
   ::elm_win win(elm_win_util_standard_add("bg-plain", "Bg Plain"));
   win.autodel_set(true);
 
-  win.size_set(320,320);
+  win.evas::object::size_set(320,320);
   win.visibility_set(true);
 
   elm_run();
   elm_shutdown();
 
   return 0;
-
 }
-ELM_MAIN();
+ELM_MAIN()

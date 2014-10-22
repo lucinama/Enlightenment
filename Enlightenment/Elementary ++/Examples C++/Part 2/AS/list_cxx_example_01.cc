@@ -22,6 +22,7 @@ extern "C"
 
 #include "elm_interface_atspi_accessible.h"
 #include "elm_interface_atspi_widget_action.h"
+#include "elm_interface_scrollable.h"
 }
 
 #include <elm_win.eo.hh>
@@ -31,47 +32,51 @@ extern "C"
 
 #include <Eina.hh>
 
+#include <array>
+#include <string>
+
 EAPI_MAIN int
 elm_main (int argc, char *argv[])
 {
-   	unsigned int i;
-   	static const char *lbl[7] =
+
+  std::array<std::string, 7> labels =
     {
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
     };
      
-	elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
+  elm_policy_set(ELM_POLICY_QUIT, ELM_POLICY_QUIT_LAST_WINDOW_CLOSED);
 
-	::elm_win win(elm_win_util_standard_add("list", "List Example"));
-	win.autodel_set(true);
+  ::elm_win win(elm_win_util_standard_add("list", "List Example"));
+  win.autodel_set(true);
       
- 	::elm_box bx(efl::eo::parent = win);
-  	bx.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-  	win.resize_object_add(bx);
-  	bx.visibility_set(true);
+  ::elm_box bx(efl::eo::parent = win);
+  bx.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+  win.resize_object_add(bx);
+  bx.visibility_set(true);
  	    	
-	::elm_list li(efl::eo::parent = win);
-   	li.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-   	li.size_hint_align_set(EVAS_HINT_FILL, EVAS_HINT_FILL);
- 	bx.pack_end(li);
-    for (i = 0; i < sizeof(lbl) / sizeof(lbl[0]); i++)
-     li.item_append(lbl[i], NULL, NULL, NULL, NULL);
-    
-    li.visibility_set(true);
-   	li.go();
+  ::elm_list li(efl::eo::parent = win);
+  li.size_hint_weight_set(EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+  li.size_hint_align_set(EVAS_HINT_FILL, EVAS_HINT_FILL);
+  bx.pack_end(li);
+
+  for (std::string s : labels)
+    li.item_append(s, evas::object(), evas::object(), NULL, NULL);  // XXX
+
+  li.visibility_set(true);
+  li.go();
   
-   	win.evas::object::size(320, 240);
-   	win.visibility_set(true);
+  win.evas::object::size_set(320, 240);
+  win.visibility_set(true);
 
-   	elm_run();
-   	elm_shutdown();
+  elm_run();
+  elm_shutdown();
 
-   	return 0;
+  return 0;
 }
 ELM_MAIN()

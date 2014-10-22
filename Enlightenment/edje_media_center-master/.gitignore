@@ -1,0 +1,22 @@
+#object and executables #
+##########################
+*.bin    
+*.o    
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+ 
+# Temporary files #
+###################
+*.zip
+\#*
+*~
+.*~
+.\#*
+*#
+*.tmp
+*.c~
+*.edc~
+*.edj~

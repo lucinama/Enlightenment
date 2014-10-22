@@ -78,31 +78,31 @@ elm_main (int argc, char *argv[])
    	flip.interaction_direction_hitsize_set(ELM_FLIP_DIRECTION_RIGHT, 1);
 
  	::elm_radio radio(efl::eo::parent = win);
-   	elm_object_text_set(radio._eo_ptr(), "page");		//XXXX
+   	elm_object_text_set(radio._eo_ptr(), "page");		// XXX
    	radio.value_set(ELM_FLIP_INTERACTION_PAGE);
    	radio.state_value_set(ELM_FLIP_INTERACTION_PAGE);
-   	radio.evas::object::size_set(radio, 55, 30);
+   	radio.evas::object::size_set(55, 30);
    	radio.position_set(10, 160);
    	radio.visibility_set(true);
-   	radio.callback_changed_add(&_change_interaction);
+   	// radio.callback_changed_add(&_change_interaction);
  
   	::elm_radio radio2(efl::eo::parent = win);
-   	elm_object_text_set(radio2._eo_ptr(), "cube");		//XXXX
+   	elm_object_text_set(radio2._eo_ptr(), "cube");		// XXX
    	radio2.state_value_set(ELM_FLIP_INTERACTION_CUBE);
    	radio2.group_add(radio);
 	radio2.evas::object::size_set(55, 30);
    	radio2.position_set(75, 160);
    	radio2.visibility_set(true);
-   	radio2.callback_changed_add(&_change_interaction);
+   	// radio2.callback_changed_add(&_change_interaction);
    	
    	::elm_radio radio3(efl::eo::parent = win);
-   	elm_object_text_set(radio3._eo_ptr(), "rotate");		//XXXX
+   	elm_object_text_set(radio3._eo_ptr(), "rotate");		// XXX
    	radio3.state_value_set(ELM_FLIP_INTERACTION_ROTATE);
    	radio3.group_add(radio);
 	radio3.evas::object::size_set(55, 30);
    	radio3.position_set(140, 160);
    	radio3.visibility_set(true);
-   	radio3.callback_changed_add(&_change_interaction);
+   	// radio3.callback_changed_add(&_change_interaction);
   
    	win.evas::object::size_set(200, 200);
   	win.visibility_set(true);
@@ -114,10 +114,14 @@ elm_main (int argc, char *argv[])
 }
 ELM_MAIN()
 
+
 void
-_change_interaction(::elm_radio obj, Eo_Event_Description const& desc, void* info);
+_change_interaction(::elm_radio obj, Eo_Event_Description const& desc, void* info)
 {
-   flip.interaction_set(data, obj.state_value_get());
-   flip.go(data, ELM_FLIP_ROTATE_XZ_CENTER_AXIS);
+  ::elm_flip data;
+  elm_flip_interaction_set(data, elm_radio_state_value_get(obj));
+  elm_flip_go(data, ELM_FLIP_ROTATE_XZ_CENTER_AXIS);
+  data.interaction_set(obj.state_value_get());
+  data.go(ELM_FLIP_ROTATE_XZ_CENTER_AXIS);
 }
 

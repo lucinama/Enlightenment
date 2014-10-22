@@ -34,14 +34,15 @@ extern "C"
 #include <elm_button.eo.hh>
 
 #include <Eina.hh>
+#include <iostream>
 
 static int counter = 3;
 
 void
-_ds_selected_cb(::elm_diskselector it, Eo_Event_Description const& desc, void* info)
+_ds_selected_cb(::elm_diskselector obj, Eo_Event_Description const& desc, void* info)
 {
-  //printf("Selected Item %s\n", elm_object_item_text_get(it));
-  std::cout << "Selected Item " << it.text_get() << std::endl;
+//printf("Selected Item %s\n", elm_object_item_text_get(it));
+std::cout << "Selected Item " << it.text_get() << std::endl;
     }
 
 void

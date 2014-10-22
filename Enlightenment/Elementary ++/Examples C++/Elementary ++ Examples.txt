@@ -1,0 +1,77 @@
+slider_cxx_example.cc			Callback mais complexa  ?ok
+thumb_cxx_example_01.cc			.Compila mas roda sem imagem, assim como o original ?ok
+popup_cxx_example_01.cc			.Compila mas não roda direito, assim como original ?ok
+radio_cxx_example_01.cc			Compila mas não roda direito ?ok
+transit_cxx_example_01.cc		?ok
+image_cxx_example_01.cc			Imagem aberta pelo app, ver como tem q estar  ?ok
+inwin_cxx_example.cc			Callbacks mais complexas
+menu_cxx_example_01.cc			Callbacks mais complexas
+hoversel_cxx_example_01.cc		Callbacks mais complexas
+efl_cxx_thread_1.cc			Callbacks mais complexas
+efl_cxx_thread_2.cc			Callbacks mais complexas
+efl_cxx_thread_3.cc			Callbacks mais complexas
+efl_cxx_thread_4.cc			Callbacks mais complexas
+efl_cxx_thread_5.cc			Callbacks mais complexas
+button_cxx_example_00.cc	 	Callbacks mais complexas
+button_cxx_example_01.cc	 	Callbacks mais complexas
+location_cxx_example_01.cc		Callbacks mais complexas
+codegen_cxx_example.cc		    	Callbacks mais complexas
+efl_cxx_thread_6.cc			Não conseguiu fazer o cast do info e/ou data
+genlist_cxx_example_02.cc		Não conseguiu fazer o cast do info e/ou data
+index_cxx_example_01.cc			Não conseguiu fazer o cast do info e/ou data
+layout_cxx_example_01.cc		Não conseguiu fazer o cast do info e/ou data
+layout_cxx_example_02.cc		Não conseguiu fazer o cast do info e/ou data
+layout_cxx_example_03.cc		Não conseguiu fazer o cast do info e/ou data
+genlist_cxx_example_01.cc		Não conseguiu fazer o cast do info e/ou data
+check_cxx_example_01.cc 	      	Não conseguiu fazer o cast do info e/ou data
+calendar_cxx_example_06.cc	 	Não conseguiu fazer o cast do info e/ou data
+bg_cxx_example_03.cc			Não conseguiu fazer o cast do info e/ou data
+colorselector_cxx_example_01.cc	     	Não conseguiu fazer o cast do info e/ou data
+dayselector_cxx_example.cc		Não conseguiu fazer o cast do info e/ou data
+fileselector_button_cxx_example.cc	Não conseguiu fazer o cast do info e/ou data
+fileselector_entry_cxx_example.cc	Não conseguiu fazer o cast do info e/ou data
+flip_cxx_example_01.cc			Não conseguiu fazer o cast do info e/ou data
+flipselector_cxx_example.cc		Não conseguiu fazer o cast do info e/ou data
+hover_cxx_example_01.cc			Não conseguiu fazer o cast do info e/ou data
+photocam_cxx_example_01.cc		Não conseguiu fazer o cast do info e/ou data
+list_cxx_example_03.cc			Não conseguiu fazer o cast do info e/ou data
+map_cxx_example_02.cc			Não conseguiu fazer o cast do info e/ou data
+map_cxx_example_03.cc			Não conseguiu fazer o cast do info e/ou data
+gengrid_cxx_example.cc			Não conseguiu fazer o cast do info e/ou data
+map_cxx_example_01.cc			Não conseguiu fazer o cast na callback
+entry_cxx_example.cc			Não conseguiu fazer o cast na callback
+track_cxx_example_01.cc			Não conseguiu fazer o cast do info e/ou data. Argumento "Opcional" (item_append)
+genlist_cxx_example_03.cc		Não conseguiu fazer o cast na callback. Argumento "Opcional" (item_append)
+index_cxx_example_02.cc			Argumento "Opcional" (item_append)
+ctxpopup_cxx_example_01.cc		Argumento "Opcional" (item_append)
+diskselector_cxx_example_01.cc		Argumento "Opcional" (item_append)
+diskselector_cxx_example_02.cc		Argumento "Opcional" (item_append) e etc
+list_cxx_example_01.cc			Argumento "Opcional" (item_append)
+list_cxx_example_02.cc			Argumento "Opcional" (item_append)
+toolbar_cxx_example_01.cc		Argumento "Opcional" (item_append)
+toolbar_cxx_example_02.cc		Argumento "Opcional" (item_append)
+toolbar_cxx_example_03.cc		Argumento "Opcional" (item_append)
+general_funcs_cxx_example.cc		Argumento "Opcional" (content_set)			
+scroller_cxx_example_01.cc		Não reconhece as funções region_show no elm_scroller (resolvido region_content_show ?)
+segment_cxx_control_example.cc		Não reconhece as funções item_selected _get e _set
+theme_cxx_example_01.cc			Erro na compilação ?x
+theme_cxx_example_02.cc			Erro na compilação ?x
+genlist_cxx_example_04.cc		Não conseguiu fazer o cast do info e/ou data. Argumento "Opcional" (item_append)
+genlist_cxx_example_05.cc		Argumento "Opcional" (item_append)
+glview_cxx_example_01.cc		Callbacks mais complexas	
+mapbuf_cxx_example.cc			Não conseguiu fazer o cast do info e/ou data
+naviframe_cxx_example.cc		Não conseguiu fazer o cast do info e/ou data
+popup_cxx_example_02.cc			Erro na compilação 
+popup_cxx_example_03.cc			Argumento "Opcional" (item_append)
+prefs_data_cxx_example.cc		Não conseguiu fazer o cast do info e/ou data
+prefs_cxx_example_01.cc			Não conseguiu fazer o cast do info e/ou data		
+prefs_cxx_example_02.cc			Não conseguiu fazer o cast do info e/ou data		
+prefs_cxx_example_03.cc			Não conseguiu fazer o cast do info e/ou data	
+progressbar_cxx_example.cc		Não conseguiu fazer o cast do info e/ou data
+slideshow_cxx_example.cc		Não conseguiu fazer o cast do info e/ou data
+transit_cxx_example_01.cc		ok
+transit_cxx_example_02.cc		ok	
+transit_cxx_example_03.cc		Não conseguiu fazer o cast do info e/ou data
+transit_cxx_example_04.cc		Argumento "Opcional" (item_append). Não conseguiu fazer o cast do info e/ou data
+web_cxx_example_02.cc			Argumento "Opcional" (item_append). Callbacks mais complexas. Não conseguiu fazer o cast do info e/ou data
+win_cxx_example.cc			Não conseguiu fazer o cast do info e/ou data

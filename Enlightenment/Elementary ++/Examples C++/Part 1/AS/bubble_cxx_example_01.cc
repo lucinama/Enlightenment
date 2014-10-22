@@ -2,6 +2,8 @@
 # include <elementary_config.h>
 #endif
 
+extern "C"
+{
 #define ELM_INTERNAL_API_ARGESFSDFEFC
 #define ELM_INTERFACE_ATSPI_ACCESSIBLE_PROTECTED
 #define ELM_INTERFACE_ATSPI_COMPONENT_PROTECTED
@@ -13,23 +15,18 @@
 #define ELM_INTERFACE_ATSPI_IMAGE_PROTECTED
 #define ELM_INTERFACE_ATSPI_WIDGET_ACTION_PROTECTED
 
-extern "C"
-{
 #include <Eo.h>
 #include <Evas.h>
 #include <Elementary.h>
 #include <elm_widget.h>
 
 #include "elm_interface_atspi_accessible.h"
-#include "elm_interface_atspi_accessible.eo.h"
 #include "elm_interface_atspi_widget_action.h"
-#include "elm_interface_atspi_widget_action.eo.h"
+#include "elm_interface_atspi_text.h"
+#include "elm_interface_scrollable.h"
 }
 
-#include <elm_win.eo.hh>
-#include <elm_bubble.eo.hh>
-#include <elm_label.eo.hh>
-
+#include <Elementary.hh>
 #include <Eina.hh>
 #include <Evas.hh>
 
